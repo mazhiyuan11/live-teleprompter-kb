@@ -24,9 +24,7 @@ export function Header() {
             href="/"
             className="flex items-center gap-2.5 font-display font-bold text-xl text-ink-900 hover:text-brand-700 transition-colors"
           >
-            <span className="w-8 h-8 bg-brand-600 text-white rounded-lg flex items-center justify-center text-sm">
-              猿
-            </span>
+            <img src="/favicon.png" alt="直播猿" className="w-8 h-8 rounded-lg" />
             <span className="hidden sm:inline">直播猿</span>
             <span className="sm:hidden">直播猿</span>
           </Link>

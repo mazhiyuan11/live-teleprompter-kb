@@ -8,6 +8,10 @@ import { generateOrganizationSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: siteConfig.title,
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
   authors: [{ name: siteConfig.author }],

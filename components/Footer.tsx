@@ -38,9 +38,7 @@ export function Footer() {
           {/* 品牌 */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-2.5 mb-4">
-              <span className="w-8 h-8 bg-brand-500 text-white rounded-lg flex items-center justify-center text-sm font-bold">
-                猿
-              </span>
+              <img src="/favicon.png" alt="直播猿" className="w-8 h-8 rounded-lg" />
               <span className="font-display font-bold text-lg text-white">
                 {siteConfig.name}
               </span>
