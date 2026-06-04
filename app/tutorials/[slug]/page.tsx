@@ -161,6 +161,17 @@ export default async function ArticlePage({ params }: Props) {
 
               {/* 自动内链 */}
               <AutoInternalLinks currentSlug={slug} />
+
+              {/* 作者署名 */}
+              <div className="mt-10 p-5 bg-gradient-to-r from-brand-50 to-warm-50 rounded-xl border border-brand-100 flex items-center gap-4">
+                <div className="w-12 h-12 bg-brand-600 text-white rounded-full flex items-center justify-center text-lg font-bold flex-shrink-0">
+                  猿
+                </div>
+                <div>
+                  <p className="font-medium text-ink-800 text-sm">{article.author}</p>
+                  <p className="text-xs text-ink-500">直播猿提词工具创始人 · 3年直播运营经验 · 带过50+新人主播</p>
+                </div>
+              </div>
             </div>
 
             {/* FAQ 区块（Schema.org FAQPage） */}
@@ -219,6 +230,8 @@ function renderArticleSections(slug: string) {
       return <AITeleprompterContent />;
     case 'wei-shi-yao-zong-wang-ci':
       return <WhyForgetWordsContent />;
+    case 'xin-shou-ti-ci-qi-shang-shou':
+      return <NewbieGuideContent />;
     default:
       return <DefaultContent />;
   }
@@ -722,6 +735,135 @@ function WhyForgetWordsContent() {
   );
 }
 
+function NewbieGuideContent() {
+  return (
+    <>
+      <h2 id="开场">第一次面对镜头，是什么感觉？</h2>
+      <p>
+        如果你第一次开播，对着镜头说不出话——<strong>这完全正常</strong>。
+      </p>
+      <p>
+        我见过的每一个主播，第一场直播都是紧张的。包括我自己。区别只在于——你有没有用提词器帮你撑过最难的阶段。
+      </p>
+      <p>
+        这篇文章就是写给<strong>从来没碰过提词器、第一次想试试</strong>的你。5 步，从零到流畅开播。
+      </p>
+      <blockquote>
+        本文不会推荐昂贵的设备，不要求你买任何东西。只需要一台电脑或一部手机，配合免费工具，半小时就能设好。
+      </blockquote>
+
+      <h2 id="第一步选工具">第一步：选一个提词方案（5 分钟）</h2>
+      <p>
+        别在这步纠结太久。你是新手，你需要的不是"最好的"方案，而是<strong>"今天能用的"</strong>方案。
+      </p>
+
+      <h3 id="电脑直播推荐">电脑直播（推荐）</h3>
+      <p>
+        打开浏览器 → 搜索直播猿 → 打开在线提词页面 → 在 OBS 中添加"浏览器源"→ 粘贴网址 → 调整位置到摄像头下方。
+      </p>
+      <p>这是零成本的入门方案。不需要下载软件，不需要注册，不需要花钱。设置全程不超过 5 分钟。</p>
+
+      <h3 id="手机直播推荐">手机直播</h3>
+      <p>去应用商店搜"提词器"，选评分最高的免费 App 下载。安装后开启"悬浮窗"权限，把提词窗口拖到屏幕顶部。</p>
+
+      <p><strong>我的建议</strong>：第一场直播，用最简单的方案。别一上来就搞双屏、多设备同步——那些是进阶玩法，以后再说。</p>
+
+      <h2 id="第二步写稿子">第二步：写一份"提词稿"（20 分钟）</h2>
+      <p>这是<strong>最重要的一步</strong>。新手最容易犯的错：把平时写的文章直接复制进提词器。</p>
+      <p>提词器的稿子和书面文章不一样。三个原则：</p>
+
+      <h3 id="口语化原则">原则一：口语化</h3>
+      <p>
+        不要写"本产品采用先进工艺制造，具有卓越的品质表现"。写"这个产品质量很好，用的是最好的工艺"。
+      </p>
+      <p><strong>写完之后念一遍</strong>。如果念出来觉得拗口，就改。改到念出来像正常说话为止。</p>
+
+      <h3 id="短句原则">原则二：短句</h3>
+      <p>一句话不超过 20 个字。句号比逗号好用。断句点就是你的换气点。</p>
+
+      <h3 id="关键词原则">原则三：关键词突出</h3>
+      <p>把最重要的词用特殊标记标出来。比如：</p>
+      <pre>今天给大家推荐一款洗面奶
+👉【氨基酸配方】温和不刺激
+👉【细腻泡沫】深层清洁不紧绷
+👉【今天专属价】限时 59 元</pre>
+      <p>你在提词器里看到这些标记，一眼就能定位到关键信息。不用满屏找字。</p>
+
+      <h2 id="第三步摆位置">第三步：把提词器放在对的位置（2 分钟）</h2>
+      <p>这步决定"观众能不能看出来你在念稿"。</p>
+
+      <p><strong>唯一的原则</strong>：提词器的位置要尽可能靠近摄像头。</p>
+      <ul>
+        <li><strong>电脑直播</strong>：提词窗口放在摄像头正上方或正下方，越近越好。以 OBS 能拖动的范围为准。</li>
+        <li><strong>手机直播</strong>：悬浮窗放在前置摄像头旁边，屏幕顶部 1/5 区域。</li>
+      </ul>
+
+      <p>为什么？因为你的视线在看提词器和看镜头之间切换。距离越近，切换越快，观众越看不出来。</p>
+
+      <p><strong>一个小技巧</strong>：在提词器旁边贴一张便利贴，上面画个箭头指向摄像头。提醒自己"记得看镜头"。</p>
+
+      <h2 id="第四步调速度">第四步：调整滚动速度（3 分钟）</h2>
+
+      <p>新人最常见的抱怨：<strong>"提词器滚太快了我跟不上"或者"滚太慢了我得等"。</strong></p>
+
+      <p>找到一个速度，设置它，然后<strong>让提词器适应你的语速，而不是反过来</strong>。</p>
+
+      <h3 id="找语速方法">怎么找？</h3>
+      <ol>
+        <li>对着提词器念一段稿子（不录、不开播，自己练）</li>
+        <li>感觉快了就调慢，慢了就调快</li>
+        <li>找到"刚好念完一行，下一行就出现"的节奏</li>
+        <li><strong>记住这个速度数字</strong></li>
+      </ol>
+
+      <p>对于大多数中文主播，初始速度设置在 <strong>180-200 字/分钟</strong> 比较舒服。以后熟练了再加快。</p>
+
+      <p>直播猿支持实时调速，开播过程中也能随时调整，不用担心设错了改不了。</p>
+
+      <h2 id="第五步第一次">第五步：第一次开播（你的任务不是完美）</h2>
+
+      <p>前面四步准备了这么久，现在是最关键的一步——<strong>真的开播</strong>。</p>
+
+      <p>但你第一次开播的目标不是"讲得完美"。目标是：<strong>开播了，没垮，下次还敢。</strong></p>
+
+      <h3 id="第一场建议">第一场直播的建议设置</h3>
+      <ul>
+        <li><strong>时长</strong>：15-20 分钟，别太长时间</li>
+        <li><strong>内容</strong>：选你最有把握的话题</li>
+        <li><strong>提词器</strong>：开着，放在摄像头旁边</li>
+        <li><strong>心态</strong>：这是练习，不是表演</li>
+      </ul>
+
+      <h3 id="三个允许">记住三个"允许"</h3>
+      <ol>
+        <li><strong>允许自己看提词器</strong>——它是工具，不是作弊</li>
+        <li><strong>允许自己念错</strong>——错了就错了，观众没那么在意</li>
+        <li><strong>允许自己紧张</strong>——紧张说明你在乎这件事</li>
+      </ol>
+
+      <p>第一场结束之后，你最大的感受不会是"我好差"，而是——<strong>"原来没想象的那么难"</strong>。</p>
+
+      <h2 id="总结">总结：5 步回顾</h2>
+
+      <table>
+        <thead>
+          <tr><th>步骤</th><th>做什么</th><th>耗时</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>① 选工具</td><td>电脑选 OBS+直播猿，手机选免费 App</td><td>5 分钟</td></tr>
+          <tr><td>② 写稿子</td><td>口语化 + 短句 + 关键词标记</td><td>20 分钟</td></tr>
+          <tr><td>③ 摆位置</td><td>提词器靠近摄像头，越近越好</td><td>2 分钟</td></tr>
+          <tr><td>④ 调速度</td><td>先练一遍，找到舒适速度（180-200字/分钟）</td><td>3 分钟</td></tr>
+          <tr><td>⑤ 开播</td><td>目标不是完美，是"下次还敢"</td><td>15-20 分钟</td></tr>
+        </tbody>
+      </table>
+
+      <p>合计准备时间半小时，你就能完成第一场有提词器辅助的直播。</p>
+      <p>后面的事情——口播技巧、话术打磨、多品带货——都是在这 5 步的基础上叠加。先把基础跑通，再慢慢升级。</p>
+    </>
+  );
+}
+
 function DefaultContent() {
   return (
     <>
@@ -801,6 +943,23 @@ function extractTOCFromArticle(article: ReturnType<typeof getArticleBySlug>): TO
       { id: 'ai提词器核心功能', text: 'AI 提词器的核心功能', level: 1 },
       { id: 'ai提词器推荐', text: 'AI 提词器推荐', level: 1 },
       { id: 'ai提词器未来展望', text: 'AI 提词器的未来展望', level: 1 },
+    ],
+    'xin-shou-ti-ci-qi-shang-shou': [
+      { id: '开场', text: '第一次面对镜头，是什么感觉？', level: 1 },
+      { id: '第一步选工具', text: '第一步：选一个提词方案', level: 1 },
+      { id: '电脑直播推荐', text: '电脑直播（推荐）', level: 2 },
+      { id: '手机直播推荐', text: '手机直播', level: 2 },
+      { id: '第二步写稿子', text: '第二步：写一份"提词稿"', level: 1 },
+      { id: '口语化原则', text: '原则一：口语化', level: 2 },
+      { id: '短句原则', text: '原则二：短句', level: 2 },
+      { id: '关键词原则', text: '原则三：关键词突出', level: 2 },
+      { id: '第三步摆位置', text: '第三步：把提词器放在对的位置', level: 1 },
+      { id: '第四步调速度', text: '第四步：调整滚动速度', level: 1 },
+      { id: '找语速方法', text: '怎么找到自己的语速？', level: 2 },
+      { id: '第五步第一次', text: '第五步：第一次开播', level: 1 },
+      { id: '第一场建议', text: '第一场直播的建议设置', level: 2 },
+      { id: '三个允许', text: '记住三个"允许"', level: 2 },
+      { id: '总结', text: '总结：5 步回顾', level: 1 },
     ],
     'wei-shi-yao-zong-wang-ci': [
       { id: '开场', text: '直播为什么总忘词？', level: 1 },

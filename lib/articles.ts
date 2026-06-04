@@ -45,6 +45,38 @@ export const ALL_ARTICLES: ArticleMeta[] = [
     relatedSlugs: ['zhi-bo-wang-ci-jie-jue-fang-an', 'kou-bo-ji-qiao-jin-jie', 'obs-ti-ci-qi-jiao-cheng'],
   },
   {
+    slug: 'xin-shou-ti-ci-qi-shang-shou',
+    title: '第一次用提词器？新手 5 步上手攻略',
+    description:
+      '专为第一次接触提词器的新人主播写的零基础上手指南。从选择工具到写出好稿子，从位置摆放到克服恐惧，5 步帮你从"对着镜头说不出话"到"流畅自然口播"。',
+    category: '口播技巧',
+    tags: ['新手入门', '提词器', '首次使用', '直播技巧', '新人主播'],
+    date: '2026-06-04',
+    author: '提词猿',
+    readingTime: 10,
+    featured: true,
+    difficulty: 'beginner',
+    keywords: ['第一次用提词器', '提词器新手教程', '新手主播', '提词器怎么用', '直播猿新手'],
+    faq: [
+      {
+        question: '第一次用提词器，需要买专业设备吗？',
+        answer:
+          '完全不需要。第一次用提词器，建议从免费方案开始：电脑端用 OBS 浏览器源 + 在线提词网页（如直播猿），手机端下载免费提词 App。等你熟悉基本操作、确定自己需要提词器后，再考虑升级方案。绝大多数主播用免费方案就完全够了。',
+      },
+      {
+        question: '用提词器会不会影响直播效果？观众能看出来吗？',
+        answer:
+          '正确使用提词器，观众基本看不出来。关键：（1）提词器放在摄像头正上方，视线偏移不超过15度；（2）稿件用口语化语言，不要照念书面文章；（3）配合自然的停顿和语气变化，不要像机器人念稿。熟练后，观众会觉得你就是口才好，不会想到有提词器。',
+      },
+      {
+        question: '第一次开播前紧张怎么克服？',
+        answer:
+          '几乎所有主播第一次都紧张。三个建议：（1）开播前对着镜子/录视频练 3 遍，建立肌肉记忆；（2）前 5 分钟设为"暖场时间"，先打招呼、聊天气、看弹幕，不要急着进主题；（3）把提词器当作"安全网"而不是"拐杖"——你知道稿子在那，心里就有底。直播猿支持慢速模式，新人可以调低速度从容开播。',
+      },
+    ],
+    relatedSlugs: ['wei-shi-yao-zong-wang-ci', 'zhi-bo-wang-ci-jie-jue-fang-an', 'mian-fei-ti-ci-qi-tui-jian'],
+  },
+  {
     slug: 'obs-ti-ci-qi-jiao-cheng',
     title: 'OBS 提词器完整教程：从安装到高级设置',
     description:
