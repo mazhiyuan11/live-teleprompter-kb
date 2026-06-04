@@ -10,7 +10,7 @@ export const metadata: Metadata = createSEOMetadata({
   description:
     '直播提词器常见问题解答：提词器使用方法、OBS设置、免费工具推荐、直播忘词解决方案等30+高频问题，助你快速上手。',
   ogType: 'website',
-  canonical: 'https://live-teleprompter.cn/faq',
+  canonical: 'https://zhibotici.xin/faq',
 });
 
 // 汇总全站所有 FAQ

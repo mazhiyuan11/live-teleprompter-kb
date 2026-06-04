@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${cat.name}教程`,
     description: cat.description,
     ogType: 'website',
-    canonical: `https://live-teleprompter.cn/categories/${category}`,
+    canonical: `https://zhibotici.xin/categories/${category}`,
   });
 }
 

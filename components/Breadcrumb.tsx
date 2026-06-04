@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { siteConfig } from '@/lib/site-config';
 
 interface BreadcrumbItem {
   label: string;
@@ -17,7 +18,7 @@ export function Breadcrumb({ items }: BreadcrumbProps) {
       '@type': 'ListItem' as const,
       position: index + 1,
       name: item.label,
-      item: `https://live-teleprompter.cn${item.href}`,
+      item: `${siteConfig.url}${item.href}`,
     }));
 
   return (

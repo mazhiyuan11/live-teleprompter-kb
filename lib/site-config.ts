@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   title: '直播提词器知识站 — OBS提词、口播技巧、直播忘词解决方案',
   description:
     '专业的中文直播提词器知识平台。涵盖OBS提词器教程、口播技巧、直播忘词解决方案、AI提词工具推荐等内容，帮助主播告别忘词困扰，提升直播表现力。',
-  url: 'https://live-teleprompter.cn',
+  url: 'https://zhibotici.xin',
   ogImage: '/og-image.png',
   author: '直播提词器知识站',
   language: 'zh-CN',

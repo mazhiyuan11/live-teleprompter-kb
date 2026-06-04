@@ -10,7 +10,7 @@ export const metadata: Metadata = createSEOMetadata({
   description:
     '直播提词器全部教程列表：OBS提词设置、免费提词器推荐、口播技巧训练、直播忘词解决方案、AI提词等。从入门到进阶，系统化学习。',
   ogType: 'website',
-  canonical: 'https://live-teleprompter.cn/tutorials',
+  canonical: 'https://zhibotici.xin/tutorials',
 });
 
 export default function TutorialsPage() {

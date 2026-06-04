@@ -9,7 +9,7 @@ export const metadata: Metadata = createSEOMetadata({
   description:
     '按分类浏览直播提词器教程：OBS提词、工具推荐、口播技巧、常见问题、AI提词。找到你需要的知识内容。',
   ogType: 'website',
-  canonical: 'https://live-teleprompter.cn/categories',
+  canonical: 'https://zhibotici.xin/categories',
 });
 
 export default function CategoriesPage() {
