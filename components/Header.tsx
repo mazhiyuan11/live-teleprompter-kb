@@ -25,10 +25,10 @@ export function Header() {
             className="flex items-center gap-2.5 font-display font-bold text-xl text-ink-900 hover:text-brand-700 transition-colors"
           >
             <span className="w-8 h-8 bg-brand-600 text-white rounded-lg flex items-center justify-center text-sm">
-              词
+              猿
             </span>
-            <span className="hidden sm:inline">直播提词器知识站</span>
-            <span className="sm:hidden">提词知识站</span>
+            <span className="hidden sm:inline">直播猿</span>
+            <span className="sm:hidden">直播猿</span>
           </Link>
 
           {/* Desktop Nav */}

@@ -169,7 +169,7 @@ export default async function ArticlePage({ params }: Props) {
                 </div>
                 <div>
                   <p className="font-medium text-ink-800 text-sm">{article.author}</p>
-                  <p className="text-xs text-ink-500">直播猿提词工具创始人 · 3年直播运营经验 · 带过50+新人主播</p>
+                  <p className="text-xs text-ink-500">直播猿 · 专注提词器制造30年 · 全国15000+用户信赖</p>
                 </div>
               </div>
             </div>
