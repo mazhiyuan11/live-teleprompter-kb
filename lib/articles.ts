@@ -7,6 +7,33 @@ import type { ArticleMeta, Category, FAQItem, TOCItem } from '@/types';
 
 export const ALL_ARTICLES: ArticleMeta[] = [
   {
+    slug: 'ti-ci-qi-shi-zuo-bi-ma',
+    title: '用提词器算作弊吗？电视台用了30年，为什么到主播这就成了"不专业"',
+    description:
+      '提词器=作弊？这个误解从哪来的，从提词器在电视台的应用历史、主播现场表达的底层逻辑、以及正确使用vs错误使用的区别三个角度，说清楚为什么提词器不是作弊，而是专业工具。',
+    category: '常见问题',
+    tags: ['提词器', '作弊', '专业', '电视台', '观念'],
+    date: '2026-06-05',
+    author: '提词猿',
+    readingTime: 10,
+    featured: true,
+    difficulty: 'beginner',
+    keywords: ['提词器作弊', '用提词器丢人吗', '提词器专业吗', '电视台提词器', '主播提词器'],
+    faq: [
+      {
+        question: '用提词器会不会被观众看出来？显得不专业？',
+        answer:
+          '观众看出来的是"眼神飘忽不定"和"像在念稿"，不是提词器本身。专业主播用提词器的方法是：提词窗口放在摄像头旁边、稿子用口语化语言、控制好语速和停顿。做到这三点，观众只会觉得你口才好，不会想到有提词器。电视台主持人对着提词器播新闻几十年了，有人觉得他们不专业吗？',
+      },
+      {
+        question: '新手用提词器会不会越用越依赖？',
+        answer:
+          '正确的看法是把提词器当作"安全网"而不是"拐杖"。当你越来越熟练，你自然会减少看提词器的频率。就像学自行车，辅助轮在刚开始是必需的，骑稳了自然会卸掉。先用提词器帮你度过最难的阶段，建立信心后自然不那么依赖了。',
+      },
+    ],
+    relatedSlugs: ['wei-shi-yao-zong-wang-ci', 'xin-shou-ti-ci-qi-shang-shou'],
+  },
+  {
     slug: 'wei-shi-yao-zong-wang-ci',
     title: '直播为什么总忘词？深度分析原因与科学解决方案',
     description:
