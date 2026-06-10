@@ -7,6 +7,33 @@ import type { ArticleMeta, Category, FAQItem, TOCItem } from '@/types';
 
 export const ALL_ARTICLES: ArticleMeta[] = [
   {
+    slug: 'ti-ci-qi-kan-bu-chu-lai',
+    title: '提词器怎么看不出来？5个让观众发现不了你在看稿的技巧',
+    description:
+      '用提词器最怕被观众看出来。从眼神控制、位置摆放、稿子写法、语速配合到设备选择，5个经过实战验证的技巧，让你看着提词器观众却完全发现不了。',
+    category: '口播技巧',
+    tags: ['提词器', '眼神', '不穿帮', '镜头感', '技巧'],
+    date: '2026-06-10',
+    author: '提词猿',
+    readingTime: 8,
+    featured: true,
+    difficulty: 'beginner',
+    keywords: ['提词器看不出来', '提词器不穿帮', '怎么看提词器不被发现', '提词器眼神', '提词器技巧'],
+    faq: [
+      {
+        question: '用提词器会被观众看出来吗？',
+        answer:
+          '只要位置放对、稿子写法对、眼神控制好，观众基本看不出来。三个最关键的操作：提词器尽量贴近摄像头（距离越近眼神偏移越小）、稿子用口语化短句（不要书面长句）、盯着镜头中心用余光扫字而非眼珠左右转。做到这三点，观众只会觉得你口才好，不会想到有提词器。',
+      },
+      {
+        question: '手机直播提词器怎么放才不穿帮？',
+        answer:
+          '手机直播的关键是把提词悬浮窗放在前置摄像头正下方，越近越好。字体调大到24-30px，只显示1-2行文字，这样你的视线偏移不超过5度，观众看到的是你在看镜头而非看别处。推荐使用支持透明背景和悬浮窗的提词工具。',
+      },
+    ],
+    relatedSlugs: ['xin-shou-ti-ci-qi-shang-shou', 'wei-shi-yao-zong-wang-ci'],
+  },
+  {
     slug: 'ti-ci-qi-shi-zuo-bi-ma',
     title: '用提词器算作弊吗？电视台用了30年，为什么到主播这就成了"不专业"',
     description:
