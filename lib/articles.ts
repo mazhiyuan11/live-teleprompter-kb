@@ -7,6 +7,33 @@ import type { ArticleMeta, Category, FAQItem, TOCItem } from '@/types';
 
 export const ALL_ARTICLES: ArticleMeta[] = [
   {
+    slug: 'ying-jian-ti-ci-qi-ruan-jian-qu-bie',
+    title: '硬件提词器和软件提词器到底差在哪？30年制造经验给你讲透',
+    description:
+      '免费App和网页提词也能用，为什么电视台还要花几万买硬件？从分光玻璃、透光率、视线偏移角度到使用寿命，30年提词器制造经验告诉你硬件和软件的真实差距。',
+    category: '常见问题',
+    tags: ['硬件提词器', '软件提词器', '分光玻璃', '选购', '对比'],
+    date: '2026-06-11',
+    author: '提词猿',
+    readingTime: 10,
+    featured: true,
+    difficulty: 'beginner',
+    keywords: ['硬件提词器', '软件提词器区别', '提词器选购', '分光玻璃', '提词器推荐'],
+    faq: [
+      {
+        question: '新手用软件提词器还是硬件提词器？',
+        answer:
+          '新手建议从软件方案开始。免费App或网页提词器完全能满足日常需求，零成本上手。当你遇到以下情况时再考虑硬件：①需要完美眼对眼效果（视线必须对准镜头）；②每天连续使用超过4小时（硬件更稳定）；③需要多人协作控制提词内容。软件是"够用"，硬件是"更好"，先够用再更好。',
+      },
+      {
+        question: '硬件提词器值不值几千块钱？',
+        answer:
+          '取决于你的使用场景。如果你每天直播4小时以上，硬件提词器用10年分摊下来一天不到一块钱。如果你一个月只用2-3次，软件方案足够了。硬件贵在：光学级分光玻璃（不是普通玻璃镀膜）、精密调节支架系统（承重、减震、调节自由度）、10年以上的使用寿命。这些技术细节决定了"看得清楚"和"看得舒服"的区别。',
+      },
+    ],
+    relatedSlugs: ['xin-shou-ti-ci-qi-shang-shou', 'mian-fei-ti-ci-qi-tui-jian', 'ti-ci-qi-kan-bu-chu-lai'],
+  },
+  {
     slug: 'ti-ci-qi-kan-bu-chu-lai',
     title: '提词器怎么看不出来？5个让观众发现不了你在看稿的技巧',
     description:
