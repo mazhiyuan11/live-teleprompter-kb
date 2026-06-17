@@ -7,6 +7,33 @@ import type { ArticleMeta, Category, FAQItem, TOCItem } from '@/types';
 
 export const ALL_ARTICLES: ArticleMeta[] = [
   {
+    slug: 'bai-yuan-qian-yuan-ti-ci-qi-qu-bie',
+    title: '百元提词器和千元提词器差在哪？从98块到1600块，30年制造经验拆给你看',
+    description:
+      '提词器从几十块到几千块都有，价格差在哪？分光玻璃材质、支架工艺、显示器素质、使用寿命——四个维度拆解不同价位提词器的真实差距，帮你花对钱。',
+    category: '工具推荐',
+    tags: ['提词器选购', '百元提词器', '价格对比', '硬件', '性价比'],
+    date: '2026-06-11',
+    author: '提词猿',
+    readingTime: 9,
+    featured: true,
+    difficulty: 'beginner',
+    keywords: ['提词器价格', '百元提词器', '提词器选购指南', '提词器推荐', '提词器性价比'],
+    faq: [
+      {
+        question: '100块的提词器能用吗？',
+        answer:
+          '能用。百元级的提词器（如神牛F7）用的是亚克力镜片而非光学玻璃，支架是基础铝合金件。对于手机拍摄、偶尔使用的场景完全够用。但如果你每天用4小时以上——镜片会开始出现细微划痕、支架调节手感变松、反光率不均匀。百元级的定位是"入门够用"，不是"长期好用"。',
+      },
+      {
+        question: '提词器是不是越贵越好？',
+        answer:
+          '不是。贵在三个地方：光学玻璃（平整度、镀膜均匀性、透反比精度）、支架系统（承重、减震、调节自由度）、显示器素质（亮度、抗反光、户外可视性）。如果你用手机拍、每周用2-3次，百元级完全够。如果你用单反+长焦镜头、每天用、需要完美眼神效果——贵的值。但3000以上的提词器多出来的功能99%的人用不到。',
+      },
+    ],
+    relatedSlugs: ['ying-jian-ti-ci-qi-ruan-jian-qu-bie', 'mian-fei-ti-ci-qi-tui-jian', 'xin-shou-ti-ci-qi-shang-shou'],
+  },
+  {
     slug: 'ying-jian-ti-ci-qi-ruan-jian-qu-bie',
     title: '硬件提词器和软件提词器到底差在哪？30年制造经验给你讲透',
     description:
