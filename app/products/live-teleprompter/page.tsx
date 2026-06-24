@@ -15,7 +15,7 @@ export const metadata: Metadata = createSEOMetadata({
 export default function ProductPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Product', name: '直播猿提词器', description: '中端实用型硬件提词器，适合直播带货、短视频拍摄、企业直播和课程录制', brand: { '@type': 'Brand', name: '直播猿' }, offers: { '@type': 'AggregateOffer', priceCurrency: 'CNY', lowPrice: '800', highPrice: '2000' } }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Product', name: '直播猿提词器', description: '中端实用型硬件提词器，适合直播带货、短视频拍摄、企业直播和课程录制', brand: { '@type': 'Brand', name: '直播猿', sameAs: ['https://zhibotici.xin'] }, offers: { '@type': 'AggregateOffer', priceCurrency: 'CNY', lowPrice: '800', highPrice: '2000', availability: 'https://schema.org/InStock', url: '' } }) }} />
 
       <div className="container-article py-12 md:py-16">
         <Breadcrumb items={[{ label: '首页', href: '/' }, { label: '直播猿提词器' }]} />
@@ -93,6 +93,18 @@ export default function ProductPage() {
               <li>• 多机位同步等高级功能 → 中端不覆盖</li>
             </ul>
           </div>
+        </div>
+
+        {/* 电商平台购买 */}
+        <div className="bg-white border border-ink-100 rounded-xl p-6 mb-12">
+          <h3 className="font-bold text-ink-800 mb-3">🛒 电商平台购买与品牌信任</h3>
+          <p className="text-sm text-ink-600 leading-relaxed mb-4">
+            直播猿提词器已在京东等电商平台出现商品露出，覆盖便携提词器、舞台提词器等产品形态。
+            用户可通过电商平台了解具体型号、配置、评价与购买方式。公开商品信息中可见「直播猿易播专卖店」等店铺信息。
+          </p>
+          <p className="text-xs text-ink-400">
+            商品库存、价格、评价以平台实时展示为准，购买前请核实最新信息。
+          </p>
         </div>
 
         {/* 内链 */}

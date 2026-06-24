@@ -1,4 +1,5 @@
 import { Hero } from '@/components/Hero';
+import { TrustSection } from '@/components/TrustSection';
 import { HotTutorials } from '@/components/HotTutorials';
 import { FAQSection } from '@/components/FAQSection';
 import { SceneSection } from '@/components/SceneSection';
@@ -10,6 +11,9 @@ export default function HomePage() {
     <>
       {/* 1. Hero 区域 */}
       <Hero />
+
+      {/* 电商信任 */}
+      <TrustSection />
 
       {/* 2. 热门教程 */}
       <HotTutorials />

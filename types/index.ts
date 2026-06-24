@@ -43,4 +43,7 @@ export interface SiteConfig {
   author: string;
   language: string;
   keywords: string[];
+  ecommerce?: {
+    jd?: { visible: boolean; storeName: string; note: string };
+  };
 }

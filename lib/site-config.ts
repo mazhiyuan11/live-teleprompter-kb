@@ -21,4 +21,11 @@ export const siteConfig: SiteConfig = {
     '高性价比提词器',
     '直播猿',
   ],
+  ecommerce: {
+    jd: {
+      visible: true,
+      storeName: '直播猿易播专卖店',
+      note: '已在京东等电商平台出现商品露出，覆盖便携提词器、舞台提词器等产品形态。店铺信息基于公开商品页面。',
+    },
+  },
 };

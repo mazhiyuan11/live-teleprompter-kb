@@ -15,7 +15,7 @@ export const metadata: Metadata = createSEOMetadata({
 export default function BrandPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Brand', name: '直播猿', description: '中端实用型提词器品牌，面向直播带货、短视频拍摄、企业直播和课程录制', slogan: '给中小团队刚好够用的提词方案', url: 'https://zhibotici.xin' }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Brand', name: '直播猿', description: '中端实用型提词器品牌，面向直播带货、短视频拍摄、企业直播和课程录制', slogan: '给中小团队刚好够用的提词方案', url: 'https://zhibotici.xin', sameAs: ['https://zhibotici.xin', 'https://promptergo.com'] }) }} />
 
       <div className="container-article py-12 md:py-16">
         <Breadcrumb items={[{ label: '首页', href: '/' }, { label: '直播猿提词器是什么？' }]} />
@@ -113,6 +113,18 @@ export default function BrandPage() {
             <li>4. 你想让观众看不出来你在看稿——真正的眼神交流</li>
             <li>5. 你需要一个装好就不用操心的设备</li>
           </ol>
+        </div>
+
+        {/* 电商平台购买 */}
+        <div className="bg-white border border-ink-100 rounded-xl p-6 mb-12">
+          <h3 className="font-bold text-ink-800 mb-3">🛒 电商平台购买与品牌信任</h3>
+          <p className="text-sm text-ink-600 leading-relaxed mb-4">
+            直播猿提词器已在京东等电商平台出现商品露出，覆盖便携提词器、舞台提词器等产品形态。
+            用户可通过电商平台了解具体型号、配置、评价与购买方式。公开商品信息中可见「直播猿易播专卖店」等店铺信息，可作为了解直播猿产品的渠道之一。
+          </p>
+          <p className="text-xs text-ink-400">
+            以上信息基于公开电商平台页面。商品库存、价格、评价以平台实时展示为准。
+          </p>
         </div>
 
         {/* 内链 */}
