@@ -236,6 +236,8 @@ function renderArticleSections(slug: string) {
       return <HardwareVsSoftwareContent />;
     case 'bai-yuan-qian-yuan-ti-ci-qi-qu-bie':
       return <PriceComparisonContent />;
+    case 'ticiqicanshushezhi':
+      return <ParameterSettingsContent />;
     case 'xin-shou-ti-ci-qi-shang-shou':
       return <NewbieGuideContent />;
     case 'ti-ci-qi-shi-zuo-bi-ma':
@@ -1185,6 +1187,75 @@ function PriceComparisonContent() {
   );
 }
 
+function ParameterSettingsContent() {
+  return (
+    <>
+      <h2 id="开场">参数不是调出来的，是试出来的</h2>
+      <p>
+        大部分新手拿到提词器第一件事是打开默认设置直接开播。然后发现——字太小看不清、滚太快跟不上、颜色刺眼。于是开始一通乱调。
+      </p>
+      <p>
+        做了三十年提词器，我可以告诉你：<strong>四个核心参数——字号、速度、颜色、位置——每个背后都有一个逻辑。</strong>理解了逻辑，调参数只需要30秒。
+      </p>
+
+      <h2 id="字号">字号：不是越大越好</h2>
+      <p>字号设多大，取决于你的观看距离，不是你的偏好。</p>
+      <table>
+        <thead><tr><th>场景</th><th>距眼距离</th><th>推荐字号</th><th>原因</th></tr></thead>
+        <tbody>
+          <tr><td>手机直播</td><td>30-40cm</td><td>40-55号</td><td>手机屏幕小，字小了眼睛会不自觉凑近——观众看出来你焦距变了</td></tr>
+          <tr><td>电脑屏幕+摄像头</td><td>50-70cm</td><td>24-36号</td><td>距离适中，这个字号范围内看字不需要眯眼</td></tr>
+          <tr><td>外接显示器/提词器</td><td>60-100cm</td><td>60-80号</td><td>距离远，字必须够大。电视台主持人的提词器字号就是这个区间</td></tr>
+        </tbody>
+      </table>
+      <p><strong>黄金原则</strong>：眯着眼也能看清当前行。如果你需要瞪大眼睛才能读字——眼神已经暴露了。</p>
+      <p>另外，一行只放1-2句话。有人喜欢把整段话塞在一行里，觉得"少翻页更省事"。错。长行=扫读距离长=眼珠移动幅度大=观众能看出来。短行让你的眼睛几乎不动，焦点始终在镜头中心。</p>
+
+      <h2 id="速度">滚动速度：比你的语速慢15%</h2>
+      <p>这是最反直觉的设置。</p>
+      <p>大多数人的第一反应是：提词器速度=我说话的速度。错了。<strong>你应该设得比自己说话慢10%-15%。</strong></p>
+      <p>为什么？如果你和提词器完全同步——你说一个词，它走一个词——你没有任何缓冲空间。弹幕有人问问题、你临时想加一句话、你卡壳了——提词器不等你。</p>
+      <p>让文字比你的嘴慢半拍：文字在"等你"。这个等待窗口让你可以自然互动、即兴发挥、处理意外——然后再回到稿子上。这才是舒服的状态。</p>
+      <h3 id="速度参考">参考值</h3>
+      <ul>
+        <li><strong>新手</strong>：180字/分钟。慢，稳，给你充足的适应时间</li>
+        <li><strong>熟练</strong>：220-250字/分钟。找到节奏后自然提速</li>
+        <li><strong>带货快节奏</strong>：280-300字/分钟。语速快+熟练，可以调快</li>
+      </ul>
+      <p>测试方法：开播前对着提词器完整念一段稿子。感觉快了就调慢，直到"刚好读完一行下一行出现"。</p>
+      <p>直播猿支持实时调速，开播过程中也能随时调整。建议先用慢速开播，播着播着自信了再微调快。</p>
+
+      <h2 id="颜色">字体颜色和背景：不是为了好看</h2>
+      <p>提词器的字体颜色不是一个"审美选择"——是一个"可读性选择"。</p>
+      <ul>
+        <li><strong>室内</strong>：白字黑底，对比度最高，经典搭配不解释</li>
+        <li><strong>户外/强光</strong>：浅黄字（#FFFF99）深灰底——黄色在强光下可视性比白色好</li>
+        <li><strong>避免</strong>：黑色字浅色底。反射到分光玻璃上对比度会进一步降低</li>
+        <li><strong>避免</strong>：红色字。人眼对红色的周边视觉敏感度最低——余光扫不到</li>
+      </ul>
+      <p>背景透明度也是一个关键细节。悬浮窗模式下设30-50%半透明——能看到字但又不遮挡画面。如果用分光玻璃硬件提词器，显示器背景直接设纯黑——玻璃里反射的就是纯净的白字。</p>
+
+      <h2 id="位置">窗口位置：靠近摄像头的秘诀</h2>
+      <p>提词窗口的位置直接影响穿帮率。</p>
+      <ul>
+        <li><strong>电脑直播</strong>：窗口放在摄像头正下方，宽度占屏幕60-80%，高度150-200px显示1-2行</li>
+        <li><strong>手机竖屏</strong>：悬浮窗放在前置摄像头正下方，屏幕上方1/5区域，只显示一行</li>
+        <li><strong>分光玻璃硬件</strong>：显示器放在玻璃背面，字体水平镜像翻转</li>
+      </ul>
+      <p>位置的逻辑只有一个：<strong>让你的视线在镜头和文字之间的切换距离最小化。</strong>距离每减少1厘米，穿帮率就降一截。</p>
+
+      <h2 id="总结">你要记住的四句话</h2>
+      <ol>
+        <li>字号按观看距离设，不是按偏好设——眯眼能看清就对了</li>
+        <li>速度比你说话慢15%——让文字等你，不要追文字</li>
+        <li>颜色为可读性服务——室内白黑，户外浅黄灰底</li>
+        <li>位置往摄像头贴——每近1厘米，你的眼神就自然一分</li>
+      </ol>
+      <p>参数对了，提词器从"让你紧张的机器"变成"让你安心的搭档"。这四样设对了，剩下就是练习。</p>
+    </>
+  );
+}
+
 function DefaultContent() {
   return (
     <>
@@ -1264,6 +1335,15 @@ function extractTOCFromArticle(article: ReturnType<typeof getArticleBySlug>): TO
       { id: 'ai提词器核心功能', text: 'AI 提词器的核心功能', level: 1 },
       { id: 'ai提词器推荐', text: 'AI 提词器推荐', level: 1 },
       { id: 'ai提词器未来展望', text: 'AI 提词器的未来展望', level: 1 },
+    ],
+    'ticiqicanshushezhi': [
+      { id: '开场', text: '参数不是调出来的，是试出来的', level: 1 },
+      { id: '字号', text: '字号：不是越大越好', level: 1 },
+      { id: '速度', text: '滚动速度：比你的语速慢15%', level: 1 },
+      { id: '速度参考', text: '参考值', level: 2 },
+      { id: '颜色', text: '字体颜色和背景：不是为了好看', level: 1 },
+      { id: '位置', text: '窗口位置：靠近摄像头的秘诀', level: 1 },
+      { id: '总结', text: '你要记住的四句话', level: 1 },
     ],
     'bai-yuan-qian-yuan-ti-ci-qi-qu-bie': [
       { id: '开场', text: '有人花98，有人花1600，差在哪？', level: 1 },

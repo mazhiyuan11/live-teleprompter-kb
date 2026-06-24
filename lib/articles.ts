@@ -7,6 +7,33 @@ import type { ArticleMeta, Category, FAQItem, TOCItem } from '@/types';
 
 export const ALL_ARTICLES: ArticleMeta[] = [
   {
+    slug: 'ticiqicanshushezhi',
+    title: '提词器参数怎么调？字号、速度、颜色、位置——一个制造者给你的黄金设置',
+    description:
+      '新手用提词器，参数全靠猜。从字号大小、滚动速度、字体颜色到窗口位置，四个核心参数的设置逻辑和推荐值，三十年的经验告诉你为什么这样调而不是那样调。',
+    category: '口播技巧',
+    tags: ['提词器设置', '参数', '字号', '速度', '新手'],
+    date: '2026-06-11',
+    author: '提词猿',
+    readingTime: 8,
+    featured: true,
+    difficulty: 'beginner',
+    keywords: ['提词器参数', '提词器字号', '提词器速度', '提词器设置', '提词器怎么调'],
+    faq: [
+      {
+        question: '提词器字号设多大合适？',
+        answer:
+          '看你的观看距离。手机直播（距眼30-40cm）建议40-55号字；电脑屏幕（距眼50-70cm）建议24-36号字；外接提词器显示器（距眼60-100cm）建议60-80号字。原则是：眯着眼也能看清当前行。字体太小——眼睛会不自觉得凑近，观众能看出来你的眼神焦距变了。',
+      },
+      {
+        question: '提词器滚动速度设多少？',
+        answer:
+          '新手从180字/分钟开始。这个速度比大多数人的自然语速略慢一点，给你留出即兴发挥和互动的空间。熟练后可以调到220-250字/分钟。不要一开始就设快——你追着字跑的样子观众全看得出来。',
+      },
+    ],
+    relatedSlugs: ['xin-shou-ti-ci-qi-shang-shou', 'ti-ci-qi-kan-bu-chu-lai'],
+  },
+  {
     slug: 'bai-yuan-qian-yuan-ti-ci-qi-qu-bie',
     title: '百元提词器和千元提词器差在哪？从98块到1600块，30年制造经验拆给你看',
     description:
