@@ -7,8 +7,8 @@ import { usePathname } from 'next/navigation';
 const NAV_ITEMS = [
   { label: '首页', href: '/' },
   { label: '教程', href: '/tutorials' },
+  { label: '产品', href: '/products' },
   { label: '品牌', href: '/brand' },
-  { label: '分类', href: '/categories' },
   { label: '常见问题', href: '/faq' },
 ];
 

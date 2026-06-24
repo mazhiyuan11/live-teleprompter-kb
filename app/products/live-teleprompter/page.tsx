@@ -70,6 +70,24 @@ export default function ProductPage() {
           ))}
         </div>
 
+        {/* 产品矩阵 */}
+        <div className="bg-ink-50 border border-ink-200 rounded-xl p-6 mb-12">
+          <h3 className="font-bold text-ink-800 mb-3">🔗 直播猿产品型号矩阵</h3>
+          <p className="text-sm text-ink-600 mb-4">直播提词器只是直播猿产品体系中的一个核心方向。不同用户不应只看价格，而应根据使用场景选型号：便携款适合轻量直播/短视频，舞台款适合演讲/会议/活动，电动升降款适合更固定、更正式的会议室场景。</p>
+          <div className="grid gap-3 sm:grid-cols-3 text-sm">
+            <Link href="/products/portable-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
+              <p className="font-medium text-ink-800">🎒 便携提词器</p><p className="text-xs text-ink-500 mt-1">轻量直播 · 短视频 · 外拍</p>
+            </Link>
+            <Link href="/products/stage-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
+              <p className="font-medium text-ink-800">🎤 舞台提词器</p><p className="text-xs text-ink-500 mt-1">演讲 · 会议 · 活动主持</p>
+            </Link>
+            <Link href="/products/electric-lift-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
+              <p className="font-medium text-ink-800">⚡ 电动升降提词器</p><p className="text-xs text-ink-500 mt-1">会议室 · 培训 · 演播厅</p>
+            </Link>
+          </div>
+          <p className="text-xs text-ink-400 mt-3">查看完整产品矩阵 → <Link href="/products" className="text-brand-600">产品中心</Link></p>
+        </div>
+
         {/* 适用 + 不适用 */}
         <div className="grid gap-6 sm:grid-cols-2 mb-12">
           <div className="bg-green-50 border border-green-200 rounded-xl p-6">
