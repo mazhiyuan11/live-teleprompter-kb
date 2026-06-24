@@ -46,7 +46,7 @@ export function Footer() {
             <p className="text-sm text-ink-400 leading-relaxed mb-3">
               专注提词器制造 30 年。
               <br />
-              从个人主播到省级电视台的信赖之选。
+              中端实用型提词器——比App更稳定，比广播级更划算。
             </p>
             <a
               href="https://promptergo.com"

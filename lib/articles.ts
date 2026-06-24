@@ -584,7 +584,7 @@ export const SCENES = [
   },
   {
     title: '电视台演播',
-    description: '新闻播报、节目录制、访谈对话的标准配置，全国省市以上电视台信赖之选',
+    description: '新闻播报、节目录制、访谈对话的标准配置，大屏清晰显示、运行稳定可靠',
     icon: '📺',
     slug: 'wei-shi-yao-zong-wang-ci',
   },
