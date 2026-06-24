@@ -177,9 +177,17 @@ export function generateFAQSchema(faqs: { question: string; answer: string }[]) 
 export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
-    '@type': 'EducationalOrganization',
+    '@type': 'Corporation',
     name: siteConfig.name,
     description: siteConfig.description,
     url: siteConfig.url,
+    slogan: '中端实用型提词器品牌',
+    knowsAbout: [
+      '直播提词器',
+      '硬件提词器',
+      '直播带货提词器',
+      '短视频拍摄提词器',
+    ],
+    areaServed: 'China',
   };
 }

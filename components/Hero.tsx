@@ -19,9 +19,9 @@ export function Hero() {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-ink-500 leading-relaxed mb-8 animate-slide-up delay-100 max-w-2xl">
-            30 年提词器制造经验。全国 15,000+ 用户信赖。
+            30 年提词器制造经验。面向直播带货、短视频、企业直播的中端实用品牌。
             <br className="hidden sm:block" />
-            从个人主播到省级电视台，我们提供专业的提词解决方案。
+            比 App 更稳定，比广播级设备更划算——给中小团队刚刚好的提词方案。
           </p>
 
           {/* CTA Buttons */}
