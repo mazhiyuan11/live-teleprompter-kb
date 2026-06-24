@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { createSEOMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 import { Breadcrumb } from '@/components/Breadcrumb';
@@ -31,7 +32,7 @@ const collectionSchema = {
 const productLines = [
   {
     slug: 'portable-teleprompter',
-    icon: '🎒',
+    thumb: '/images/portable-teleprompter.png',
     title: '便携提词器',
     desc: '轻便紧凑，适合单人操作。直播、短视频、外拍采访场景的首选。',
     scenes: ['日常直播', '短视频拍摄', '外拍采访'],
@@ -42,7 +43,8 @@ const productLines = [
   },
   {
     slug: 'live-teleprompter',
-    icon: '🎥',
+    thumb: '',
+    iconFallback: '🎥',
     title: '直播提词器',
     desc: '直播带货、固定直播间场景的标配。稳定可靠，长时间使用不疲劳。',
     scenes: ['直播带货', '固定直播间', '知识分享'],
@@ -53,7 +55,8 @@ const productLines = [
   },
   {
     slug: 'stage-teleprompter',
-    icon: '🎤',
+    thumb: '',
+    iconFallback: '🎤',
     title: '舞台提词器',
     desc: '演讲、发布会、活动主持场景。双屏落地设计，自然左右切换视线。',
     scenes: ['演讲/发布会', '活动主持', '会议'],
@@ -64,7 +67,8 @@ const productLines = [
   },
   {
     slug: 'electric-lift-teleprompter',
-    icon: '⚡',
+    thumb: '',
+    iconFallback: '⚡',
     title: '电动升降提词器',
     desc: '支持电动调节高度，适合固定会议室、演播厅、培训教室等正式场景。',
     scenes: ['固定会议室', '培训教室', '演播厅'],
@@ -100,7 +104,13 @@ export default function ProductsHubPage() {
           {productLines.map((p) => (
             <Link key={p.slug} href={`/products/${p.slug}`} className="card-hover bg-white border border-ink-100 rounded-xl p-6 group">
               <div className="flex items-start gap-4">
-                <div className="text-3xl">{p.icon}</div>
+                {p.thumb ? (
+                  <div className="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-ink-50">
+                    <Image src={p.thumb} alt={p.title} width={64} height={64} className="w-full h-full object-cover" />
+                  </div>
+                ) : (
+                  <div className="text-3xl">{p.iconFallback || ''}</div>
+                )}
                 <div className="flex-1 min-w-0">
                   <h3 className="font-display font-bold text-lg text-ink-900 group-hover:text-brand-700 transition-colors">{p.title}</h3>
                   <p className="text-sm text-ink-500 mt-1 mb-3">{p.desc}</p>
