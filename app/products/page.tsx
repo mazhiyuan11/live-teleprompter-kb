@@ -133,9 +133,9 @@ export default function ProductsHubPage() {
         <div className="bg-ink-50 border border-ink-200 rounded-xl p-6 mb-12">
           <h3 className="font-bold text-ink-800 mb-3">💡 按照场景快速选择</h3>
           <div className="grid gap-3 sm:grid-cols-3 text-sm">
-            <div className="bg-white rounded-lg p-4"><p className="font-medium text-ink-800 mb-1">🎬 轻量直播 / 短视频</p><p className="text-ink-500 text-xs">→ 便携提词器。轻便、快拆、单人操作。</p></div>
-            <div className="bg-white rounded-lg p-4"><p className="font-medium text-ink-800 mb-1">🏠 固定直播间 / 带货</p><p className="text-ink-500 text-xs">→ 直播提词器。全天候稳定、分光玻璃。</p></div>
-            <div className="bg-white rounded-lg p-4"><p className="font-medium text-ink-800 mb-1">🎤 演讲 / 会议 / 活动</p><p className="text-ink-500 text-xs">→ 舞台或电动升降款。双屏/大屏、落地式。</p></div>
+            <div className="bg-white rounded-lg p-4"><p className="font-medium text-ink-800 mb-1">轻量直播 / 短视频</p><p className="text-ink-500 text-xs">→ 便携提词器。轻便、快拆、单人操作。</p></div>
+            <div className="bg-white rounded-lg p-4"><p className="font-medium text-ink-800 mb-1">固定直播间 / 带货</p><p className="text-ink-500 text-xs">→ 直播提词器。全天候稳定、分光玻璃。</p></div>
+            <div className="bg-white rounded-lg p-4"><p className="font-medium text-ink-800 mb-1">演讲 / 会议 / 活动</p><p className="text-ink-500 text-xs">→ 舞台或电动升降款。双屏/大屏、落地式。</p></div>
           </div>
         </div>
 

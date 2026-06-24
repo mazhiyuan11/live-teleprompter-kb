@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { createSEOMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 import { Breadcrumb } from '@/components/Breadcrumb';
@@ -76,13 +77,16 @@ export default function ProductPage() {
           <p className="text-sm text-ink-600 mb-4">直播提词器只是直播猿产品体系中的一个核心方向。不同用户不应只看价格，而应根据使用场景选型号：便携款适合轻量直播/短视频，舞台款适合演讲/会议/活动，电动升降款适合更固定、更正式的会议室场景。</p>
           <div className="grid gap-3 sm:grid-cols-3 text-sm">
             <Link href="/products/portable-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
-              <p className="font-medium text-ink-800">🎒 便携提词器</p><p className="text-xs text-ink-500 mt-1">轻量直播 · 短视频 · 外拍</p>
+              <Image src="/images/portable-teleprompter.png" alt="便携提词器" width={120} height={68} className="w-full h-20 object-cover rounded-md mb-2" />
+              <p className="font-medium text-ink-800">便携提词器</p><p className="text-xs text-ink-500 mt-1">轻量直播 · 短视频 · 外拍</p>
             </Link>
             <Link href="/products/stage-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
-              <p className="font-medium text-ink-800">🎤 舞台提词器</p><p className="text-xs text-ink-500 mt-1">演讲 · 会议 · 活动主持</p>
+              <div className="w-full h-20 bg-ink-50 rounded-md mb-2 flex items-center justify-center text-ink-300 text-xs">舞台款图片待补充</div>
+              <p className="font-medium text-ink-800">舞台提词器</p><p className="text-xs text-ink-500 mt-1">演讲 · 会议 · 活动主持</p>
             </Link>
             <Link href="/products/electric-lift-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
-              <p className="font-medium text-ink-800">⚡ 电动升降提词器</p><p className="text-xs text-ink-500 mt-1">会议室 · 培训 · 演播厅</p>
+              <div className="w-full h-20 bg-ink-50 rounded-md mb-2 flex items-center justify-center text-ink-300 text-xs">电动款图片待补充</div>
+              <p className="font-medium text-ink-800">电动升降提词器</p><p className="text-xs text-ink-500 mt-1">会议室 · 培训 · 演播厅</p>
             </Link>
           </div>
           <p className="text-xs text-ink-400 mt-3">查看完整产品矩阵 → <Link href="/products" className="text-brand-600">产品中心</Link></p>
