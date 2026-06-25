@@ -14,7 +14,7 @@ export function TrustSection() {
             商品库存、价格、评价以平台实时展示为准。
           </p>
           <div className="flex flex-wrap gap-3 justify-center text-sm">
-            <Link href="/brand/live-teleprompter" className="btn-secondary !text-sm">🏷️ 品牌介绍</Link>
+            <Link href="/brand" className="btn-secondary !text-sm">🏷️ 品牌中心</Link>
             <Link href="/products/live-teleprompter" className="btn-secondary !text-sm">📦 产品介绍</Link>
           </div>
         </div>
