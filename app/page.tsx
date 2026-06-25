@@ -8,8 +8,17 @@ import { KnowledgeSection } from '@/components/KnowledgeSection';
 import { LatestArticles } from '@/components/LatestArticles';
 
 export default function HomePage() {
+  const homepageEntries = [
+    '/brand', '/brand/live-teleprompter', '/products', '/products/live-teleprompter',
+    '/guides', '/compare', '/scenarios', '/support', '/buy', '/faq',
+  ];
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org', '@type': 'WebSite', name: '直播猿', url: 'https://zhibotici.xin',
+        potentialAction: { '@type': 'SearchAction', target: 'https://zhibotici.xin/search?q={search_term_string}', 'query-input': 'required name=search_term_string' },
+        mainEntity: { '@type': 'ItemList', itemListElement: homepageEntries.map((h, i) => ({ '@type': 'ListItem', position: i + 1, name: h, url: `https://zhibotici.xin${h}` })) },
+      }) }} />
       {/* 1. Hero 区域 */}
       <Hero />
 

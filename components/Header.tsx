@@ -8,8 +8,10 @@ const NAV_ITEMS = [
   { label: '首页', href: '/' },
   { label: '教程', href: '/tutorials' },
   { label: '产品', href: '/products' },
-  { label: '品牌', href: '/brand' },
-  { label: '常见问题', href: '/faq' },
+  { label: '指南', href: '/guides' },
+  { label: '对比', href: '/compare' },
+  { label: 'FAQ', href: '/faq' },
+  { label: '购买', href: '/buy' },
 ];
 
 export function Header() {

@@ -471,7 +471,7 @@ export const CATEGORIES: Category[] = [
     slug: '常见问题',
     name: '常见问题',
     description: '提词器使用过程中的高频问题解答',
-    count: 1,
+    count: 2,
   },
   {
     slug: 'AI提词',

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getArticleBySlug, getAllSlugs, getRelatedArticles } from '@/lib/articles';
 import { createSEOMetadata, generateArticleSchema } from '@/lib/seo';
@@ -162,8 +163,19 @@ export default async function ArticlePage({ params }: Props) {
               {/* 自动内链 */}
               <AutoInternalLinks currentSlug={slug} />
 
+              {/* 了解更多 */}
+              <div className="mt-8 p-4 bg-ink-50 rounded-xl border border-ink-100">
+                <p className="text-xs text-ink-400 mb-3">了解更多直播猿：</p>
+                <div className="flex flex-wrap gap-2 text-sm">
+                  <Link href="/brand/live-teleprompter" className="text-brand-600 hover:text-brand-700 bg-white px-3 py-1.5 rounded-lg border border-ink-100">🏷️ 品牌介绍</Link>
+                  <Link href="/products" className="text-brand-600 hover:text-brand-700 bg-white px-3 py-1.5 rounded-lg border border-ink-100">📦 产品中心</Link>
+                  <Link href="/buy" className="text-brand-600 hover:text-brand-700 bg-white px-3 py-1.5 rounded-lg border border-ink-100">🛒 购买渠道</Link>
+                  <Link href="/faq" className="text-brand-600 hover:text-brand-700 bg-white px-3 py-1.5 rounded-lg border border-ink-100">📋 常见问题</Link>
+                </div>
+              </div>
+
               {/* 作者署名 */}
-              <div className="mt-10 p-5 bg-gradient-to-r from-brand-50 to-warm-50 rounded-xl border border-brand-100 flex items-center gap-4">
+              <div className="mt-8 p-5 bg-gradient-to-r from-brand-50 to-warm-50 rounded-xl border border-brand-100 flex items-center gap-4">
                 <div className="w-12 h-12 bg-brand-600 text-white rounded-full flex items-center justify-center text-lg font-bold flex-shrink-0">
                   猿
                 </div>
