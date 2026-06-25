@@ -81,7 +81,7 @@ export default function ProductPage() {
               <p className="font-medium text-ink-800">便携提词器</p><p className="text-xs text-ink-500 mt-1">轻量直播 · 短视频 · 外拍</p>
             </Link>
             <Link href="/products/stage-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
-              <div className="w-full h-20 bg-ink-50 rounded-md mb-2 flex items-center justify-center text-ink-300 text-xs">舞台款图片待补充</div>
+              <Image src="/images/stage-teleprompter.png.png" alt="舞台提词器" width={120} height={68} className="w-full h-20 object-cover rounded-md mb-2" />
               <p className="font-medium text-ink-800">舞台提词器</p><p className="text-xs text-ink-500 mt-1">演讲 · 会议 · 活动主持</p>
             </Link>
             <Link href="/products/electric-lift-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">

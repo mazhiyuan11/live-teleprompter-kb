@@ -55,8 +55,7 @@ const productLines = [
   },
   {
     slug: 'stage-teleprompter',
-    thumb: '',
-    iconFallback: '🎤',
+    thumb: '/images/stage-teleprompter.png.png',
     title: '舞台提词器',
     desc: '演讲、发布会、活动主持场景。双屏落地设计，自然左右切换视线。',
     scenes: ['演讲/发布会', '活动主持', '会议'],

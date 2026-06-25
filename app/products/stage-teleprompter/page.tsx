@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { createSEOMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 import { Breadcrumb } from '@/components/Breadcrumb';
@@ -26,6 +27,9 @@ export default function StagePage() {
         <div className="mb-10"><span className="tag mb-3">产品线</span>
           <h1 className="font-display text-3xl font-black text-ink-900 mb-2">直播猿舞台提词器</h1>
           <p className="text-xl text-brand-700 font-medium">适合演讲、会议和活动主持的中端提词器</p>
+        </div>
+        <div className="mb-10 rounded-xl overflow-hidden">
+          <Image src="/images/stage-teleprompter.png.png" alt="直播猿舞台提词器——适合演讲、会议和活动主持的中端提词器" width={1200} height={675} className="w-full h-auto" priority />
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
           <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
