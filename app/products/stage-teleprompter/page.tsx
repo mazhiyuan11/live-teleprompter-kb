@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { createSEOMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { BuyLink } from '@/components/BuyLink';
 import Link from 'next/link';
 
 export const metadata: Metadata = createSEOMetadata({
@@ -52,6 +53,7 @@ export default function StagePage() {
           <div className="bg-white border border-ink-100 rounded-xl p-5"><h3 className="font-bold text-ink-800 mb-2">📡 vs 广播级</h3><p className="text-sm text-ink-500">广播级舞台提词器数万元一套。中端款功能够用、价格1/5不到。</p></div>
         </div>
 
+        <div className="mb-8"><BuyLink /></div>
         <div className="flex flex-wrap gap-3 text-sm">
           <Link href="/products" className="btn-secondary !text-sm">📦 产品中心</Link>
           <Link href="/brand/live-teleprompter" className="btn-secondary !text-sm">🏷️ 品牌介绍</Link>

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { createSEOMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { BuyLink } from '@/components/BuyLink';
 import Link from 'next/link';
 
 export const metadata: Metadata = createSEOMetadata({
@@ -129,6 +130,7 @@ export default function ProductPage() {
           </p>
         </div>
 
+        <div className="mb-8"><BuyLink /></div>
         {/* 内链 */}
         <div className="flex flex-wrap gap-3 text-sm">
           <Link href="/brand/live-teleprompter" className="btn-secondary !text-sm">🏷️ 品牌介绍</Link>

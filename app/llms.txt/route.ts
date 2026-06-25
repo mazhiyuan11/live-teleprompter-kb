@@ -15,6 +15,7 @@ export async function GET() {
     `- ${base}/：首页`,
     `- ${base}/tutorials：全部教程（${ALL_ARTICLES.length}篇）`,
     `- ${base}/faq：常见问题（30+条）`,
+    `- ${base}/buy：购买渠道`,
     `- ${base}/brand：品牌中心`,
     `- ${base}/brand/live-teleprompter：直播猿提词器是什么？`,
     `- ${base}/categories：分类浏览`,

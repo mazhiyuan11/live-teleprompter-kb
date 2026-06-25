@@ -1,6 +1,7 @@
 import { Hero } from '@/components/Hero';
 import { TrustSection } from '@/components/TrustSection';
 import { HotTutorials } from '@/components/HotTutorials';
+import { BuyLink } from '@/components/BuyLink';
 import { FAQSection } from '@/components/FAQSection';
 import { SceneSection } from '@/components/SceneSection';
 import { KnowledgeSection } from '@/components/KnowledgeSection';
@@ -14,6 +15,13 @@ export default function HomePage() {
 
       {/* 电商信任 */}
       <TrustSection />
+
+      {/* 购买渠道入口 */}
+      <section className="py-6 bg-brand-50 border-b border-brand-100">
+        <div className="container-site text-center">
+          <BuyLink size="sm" />
+        </div>
+      </section>
 
       {/* 2. 热门教程 */}
       <HotTutorials />

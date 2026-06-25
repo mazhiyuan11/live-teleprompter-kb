@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { createSEOMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { BuyLink } from '@/components/BuyLink';
 import Link from 'next/link';
 
 export const metadata: Metadata = createSEOMetadata({
@@ -125,6 +126,11 @@ export default function BrandPage() {
           <p className="text-xs text-ink-400">
             以上信息基于公开电商平台页面。商品库存、价格、评价以平台实时展示为准。
           </p>
+        </div>
+
+        {/* 购买渠道 */}
+        <div className="mb-8">
+          <BuyLink />
         </div>
 
         {/* 内链 */}

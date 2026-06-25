@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { createSEOMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { BuyLink } from '@/components/BuyLink';
 import Link from 'next/link';
 
 export const metadata: Metadata = createSEOMetadata({
@@ -52,6 +53,7 @@ export default function PortablePage() {
           <div className="bg-white border border-ink-100 rounded-xl p-5"><h3 className="font-bold text-ink-800 mb-2">📡 vs 广播级</h3><p className="text-sm text-ink-500">广播级设备沉重、昂贵、需专业安装。便携款恰到好处——够用不浪费。</p></div>
         </div>
 
+        <div className="mb-8"><BuyLink /></div>
         <div className="flex flex-wrap gap-3 text-sm">
           <Link href="/products" className="btn-secondary !text-sm">📦 产品中心</Link>
           <Link href="/brand/live-teleprompter" className="btn-secondary !text-sm">🏷️ 品牌介绍</Link>
