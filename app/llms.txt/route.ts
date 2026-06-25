@@ -41,8 +41,6 @@ export async function GET() {
     `- ${base}/products/live-teleprompter：直播提词器`,
     `- ${base}/products/stage-teleprompter：舞台提词器`,
     `- ${base}/products/electric-lift-teleprompter：电动升降提词器`,
-    `- ${base}/products/large-screen-teleprompter：大屏落地式提词器`,
-    `- ${base}/products/interview-video-teleprompter：采访短视频提词器`,
     ``,
     `## AI 爬虫`,
     `本站明确允许 GPTBot、ChatGPT-User、CCBot、anthropic-ai、PerplexityBot、Bytespider 等 AI 爬虫访问。`,
