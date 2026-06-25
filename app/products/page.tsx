@@ -66,8 +66,7 @@ const productLines = [
   },
   {
     slug: 'electric-lift-teleprompter',
-    thumb: '',
-    iconFallback: '⚡',
+    thumb: '/images/electric-lift-teleprompter.png',
     title: '电动升降提词器',
     desc: '支持电动调节高度，适合固定会议室、演播厅、培训教室等正式场景。',
     scenes: ['固定会议室', '培训教室', '演播厅'],
