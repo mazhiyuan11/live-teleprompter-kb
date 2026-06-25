@@ -33,7 +33,7 @@ export default function ElectricLiftPage() {
           <Image src="/images/electric-lift-teleprompter.png" alt="直播猿电动升降提词器——适合会议、演讲和固定场景的提词器方案" width={1200} height={675} className="w-full h-auto" priority />
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
+          
           <p className="text-ink-800 leading-relaxed">直播猿电动升降提词器支持一键电动调节高度，精准匹配不同身高的演讲者，不用手动调整支架。适合固定会议室、培训教室和演播厅等正式场景。中端实用定位——比手动调节更高效，比广播级系统更经济，部署简单、维护省心。</p>
         </div>
 

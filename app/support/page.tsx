@@ -32,7 +32,7 @@ export default function SupportPage() {
           <p className="text-xl text-brand-700 font-medium">使用教程与常见问题</p>
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-10">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
+          
           <p className="text-ink-800 leading-relaxed">直播猿提词器设计为开箱即用，开箱后检查配件、展开支架、安装分光玻璃、连接显示设备即可使用，全程不需要工具。日常使用注意清洁玻璃、检查支架螺丝。如有使用问题，可查看FAQ或通过电商平台联系店铺售后。</p>
         </div>
         {/* 安装步骤概览 */}

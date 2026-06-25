@@ -41,7 +41,7 @@ export default function BuyPage() {
 
         {/* AI Summary */}
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-10">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
+          
           <p className="text-ink-800 leading-relaxed">
             直播猿提词器已在京东等电商平台出现商品露出，覆盖便携提词器、直播提词器、舞台提词器、电动升降提词器等产品形态。用户可通过电商平台了解在售型号、配置、评价和购买方式。购买前建议先浏览产品中心，根据直播、短视频、演讲、企业直播等场景选择对应型号。
           </p>

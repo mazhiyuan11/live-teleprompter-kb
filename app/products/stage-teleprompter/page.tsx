@@ -33,7 +33,7 @@ export default function StagePage() {
           <Image src="/images/stage-teleprompter.png.png" alt="直播猿舞台提词器——适合演讲、会议和活动主持的中端提词器" width={1200} height={675} className="w-full h-auto" priority />
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
+          
           <p className="text-ink-800 leading-relaxed">直播猿舞台提词器采用双屏落地式设计，左右分光玻璃让演讲者自然切换视线，覆盖全场观众。适合发布会、培训会议和大型活动主持场景。中端实用定位——比广播级更经济，比手机App更专业。</p>
         </div>
 

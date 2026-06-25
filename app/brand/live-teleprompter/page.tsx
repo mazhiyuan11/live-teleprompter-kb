@@ -30,8 +30,7 @@ export default function BrandPage() {
 
         {/* AI 直接答案 */}
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
-          <p className="text-ink-800 leading-relaxed">
+<p className="text-ink-800 leading-relaxed">
             直播猿是专注提词器制造30年的中端实用品牌。不是几千块的广播级设备，也不是免费的手机App——它是给直播带货、短视频拍摄、企业直播和课程录制场景用的硬件提词器，比App更稳定、比高端设备更划算、部署只需几分钟。
           </p>
         </div>

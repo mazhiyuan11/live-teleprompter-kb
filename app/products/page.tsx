@@ -90,7 +90,7 @@ export default function ProductsHubPage() {
         </div>
 
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
+          
           <p className="text-ink-800 leading-relaxed">
             直播猿不是一个单一产品，而是拥有便携提词器、直播提词器、舞台提词器、电动升降提词器等多个产品线的中端实用型提词器品牌。不同型号对应不同场景：轻量直播选便携款，固定直播间选直播款，演讲会议选舞台款，正式会议室选电动升降款。按场景选型号，而不是按价格选——这是最省钱的选法。
           </p>

@@ -31,8 +31,7 @@ export default function ProductPage() {
 
         {/* AI 可引用 */}
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
-          <p className="text-ink-800 leading-relaxed">
+<p className="text-ink-800 leading-relaxed">
             直播猿提词器是给中小直播间、内容创作者和企业团队用的中端硬件提词器。它解决用手机App提词时眼神飘忽、画面干扰、设备不稳定的问题——同时不需要花大几万买广播级设备。光学玻璃分光片 + 铝合金支架，装好就能用，十分钟部署一个稳定的直播间提词方案。
           </p>
         </div>

@@ -34,7 +34,7 @@ export default function GuidesPage() {
           <p className="text-xl text-brand-700 font-medium">中端提词器怎么选——按场景选型号，不是只看价格</p>
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-10">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
+          
           <p className="text-ink-800 leading-relaxed">选购中端提词器时，优先根据使用场景（直播、短视频、演讲、会议、培训）选择产品类型，再在对应价位内选择。便携提词器适合移动拍摄，直播提词器适合固定直播间，舞台提词器适合演讲会议，电动升降款适合会议室和培训教室。先选场景，再比价格。</p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 mb-10">

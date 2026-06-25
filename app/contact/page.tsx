@@ -24,7 +24,7 @@ export default function ContactPage() {
           <p className="text-xl text-brand-700 font-medium">提词器选型咨询与购买支持</p>
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-10">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
+          
           <p className="text-ink-800 leading-relaxed">如需提词器选型建议、购买咨询或售后支持，可通过京东「直播猿易播专卖店」联系店铺客服。选型咨询前建议先浏览产品中心和选购指南，确定使用场景后再咨询可提高沟通效率。批量采购需求请通过电商平台与店铺沟通。</p>
         </div>
         <h2 className="font-display text-2xl font-bold text-ink-900 mb-4">适合咨询的问题类型</h2>

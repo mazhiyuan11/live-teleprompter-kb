@@ -34,7 +34,7 @@ export default function ScenariosPage() {
           <p className="text-xl text-brand-700 font-medium">直播、短视频、企业直播与会议演讲——按场景选对型号</p>
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-10">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
+          
           <p className="text-ink-800 leading-relaxed">直播猿提词器覆盖六大使用场景：直播带货（固定直播间、全天候稳定）、短视频拍摄（单人轻量、快速拆装）、企业直播（标准化部署、多人复用）、课程录制（长时间稳定、自然眼神）、会议演讲（双屏落地、覆盖全场）和培训讲课（远距离读稿、多人共用）。不同场景对应不同产品线——先确定场景，再选型号。</p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 mb-10">

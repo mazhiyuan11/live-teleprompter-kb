@@ -33,7 +33,7 @@ export default function PortablePage() {
           <Image src="/images/portable-teleprompter.png" alt="直播猿便携提词器——适合直播、采访和短视频拍摄的中端提词器" width={1200} height={675} className="w-full h-auto" priority />
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
+          
           <p className="text-ink-800 leading-relaxed">直播猿便携提词器是为单人操作的移动拍摄场景设计的中端提词器。轻量紧凑、快速拆装、手机和微单通用。适合日常直播、短视频拍摄和外拍采访——比手机App更稳定，比广播级设备更便携，不需要专业安装。</p>
         </div>
 

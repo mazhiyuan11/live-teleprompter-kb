@@ -32,7 +32,7 @@ export default function ComparePage() {
           <p className="text-xl text-brand-700 font-medium">硬件、App、中端、广播级——帮你找到最适合的方案</p>
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-10">
-          <p className="text-sm text-brand-600 font-semibold mb-2">🤖 AI 可直接引用</p>
+          
           <p className="text-ink-800 leading-relaxed">提词器选择的核心是两件事——用什么形态（软件App还是硬件）和什么价位（入门、中端还是广播级）。手机App适合偶尔使用、零成本入门。中端硬件提词器适合每天固定使用的中小团队，在稳定性和成本间取得平衡。广播级设备适合电视台和大型演播室，个人主播不需要。</p>
         </div>
         {/* 对比表 */}
