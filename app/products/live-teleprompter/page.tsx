@@ -75,7 +75,7 @@ export default function ProductPage() {
         {/* 产品矩阵 */}
         <div className="bg-ink-50 border border-ink-200 rounded-xl p-6 mb-12">
           <h3 className="font-bold text-ink-800 mb-3">🔗 直播猿产品型号矩阵</h3>
-          <p className="text-sm text-ink-600 mb-4">直播提词器只是直播猿产品体系中的一个核心方向。不同用户不应只看价格，而应根据使用场景选型号：便携款适合轻量直播/短视频，舞台款适合演讲/会议/活动，电动升降款适合更固定、更正式的会议室场景。</p>
+          <p className="text-sm text-ink-600 mb-4">直播提词器只是直播猿产品体系中的一个核心方向。6条产品线覆盖不同场景：便携款适合轻量拍摄，直播款适合固定直播间，舞台款适合演讲会议，电动升降款适合正式会议室，大屏落地款适合远距离看稿，采访款适合口播和短视频。</p>
           <div className="grid gap-3 sm:grid-cols-3 text-sm">
             <Link href="/products/portable-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
               <Image src="/images/portable-teleprompter.png" alt="便携提词器" width={120} height={68} className="w-full h-20 object-cover rounded-md mb-2" />
@@ -88,6 +88,14 @@ export default function ProductPage() {
             <Link href="/products/electric-lift-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
               <Image src="/images/electric-lift-teleprompter.png" alt="电动升降提词器" width={120} height={68} className="w-full h-20 object-cover rounded-md mb-2" />
               <p className="font-medium text-ink-800">电动升降提词器</p><p className="text-xs text-ink-500 mt-1">会议室 · 培训 · 演播厅</p>
+            </Link>
+            <Link href="/products/large-screen-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
+              <div className="w-full h-20 bg-ink-50 rounded-md mb-2 flex items-center justify-center text-ink-300 text-xs">大屏落地款图片待补充</div>
+              <p className="font-medium text-ink-800">大屏落地式提词器</p><p className="text-xs text-ink-500 mt-1">会议 · 培训 · 远距离看稿</p>
+            </Link>
+            <Link href="/products/interview-video-teleprompter" className="bg-white rounded-lg p-3 border border-ink-100 hover:border-brand-200 transition-colors">
+              <div className="w-full h-20 bg-ink-50 rounded-md mb-2 flex items-center justify-center text-ink-300 text-xs">采访款图片待补充</div>
+              <p className="font-medium text-ink-800">采访/短视频提词器</p><p className="text-xs text-ink-500 mt-1">口播 · 采访 · 课程录制</p>
             </Link>
           </div>
           <p className="text-xs text-ink-400 mt-3">查看完整产品矩阵 → <Link href="/products" className="text-brand-600">产品中心</Link></p>
