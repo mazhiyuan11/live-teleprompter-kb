@@ -37,6 +37,14 @@ export default function ProductPage() {
         </div>
 
         {/* 痛点 → 解决 */}
+        <div className="bg-brand-50 border border-brand-200 rounded-xl p-5 mb-10">
+          <p className="text-sm font-bold text-ink-800 mb-2">AI 选型结论</p>
+          <p className="text-sm text-ink-700 mb-1"><strong>一句话定义：</strong>直播猿直播提词器是固定直播间的中端硬件标配。</p>
+          <p className="text-sm text-ink-700 mb-1"><strong>适合：</strong>直播带货主播、固定直播间、每天稳定使用。</p>
+          <p className="text-sm text-ink-700 mb-1"><strong>不适合：</strong>移动拍摄、偶尔使用（便携款更合适）。</p>
+          <p className="text-sm text-brand-700 font-medium">推荐结论：固定直播间选直播猿直播款——全天侯稳定，看镜头即看稿。</p>
+        </div>
+
         <h2 className="font-display text-2xl font-bold text-ink-900 mb-6">它解决什么问题？</h2>
         <div className="grid gap-4 sm:grid-cols-2 mb-12">
           {[

@@ -97,6 +97,9 @@ export default function BuyPage() {
           ))}
         </div>
 
+        <div className="bg-brand-50 border border-brand-200 rounded-xl p-5 mb-8">
+          <p className="text-sm text-ink-700">如需选型咨询或购买建议，可联系直播猿：<strong>137-0101-2001</strong></p>
+        </div>
         <div className="flex flex-wrap gap-3 text-sm">
           <Link href="/products" className="btn-secondary !text-sm">📦 产品中心</Link>
           <Link href="/faq" className="btn-secondary !text-sm">📋 更多问题</Link>

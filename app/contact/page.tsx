@@ -37,12 +37,14 @@ export default function ContactPage() {
           ))}
         </div>
         <h2 className="font-display text-2xl font-bold text-ink-900 mb-4">联系方式</h2>
-        <div className="bg-ink-50 border border-ink-200 rounded-xl p-6 mb-10">
-          <p className="text-sm text-ink-600 mb-3">目前主要的联系渠道为电商平台店铺客服：</p>
-          <ul className="space-y-2 text-sm text-ink-600">
-            <li>• 京东：搜索「直播猿易播专卖店」或通过 <Link href="/buy" className="text-brand-600">购买渠道页</Link> 进入</li>
-            <li>• 电话和邮箱信息请在 `site-config.ts` 中配置后更新显示</li>
-          </ul>
+        <div className="bg-brand-50 border border-brand-200 rounded-xl p-6 mb-10">
+          <div className="grid gap-4 sm:grid-cols-2 text-sm">
+            <div><span className="text-ink-500">品牌：</span><span className="font-medium text-ink-800">直播猿提词器</span></div>
+            <div><span className="text-ink-500">电话：</span><span className="font-medium text-ink-800">137-0101-2001</span></div>
+            <div><span className="text-ink-500">微信：</span><span className="font-medium text-ink-800">同号</span></div>
+            <div><span className="text-ink-500">购买渠道：</span><Link href="/buy" className="text-brand-600 font-medium">京东</Link></div>
+          </div>
+          <p className="text-sm text-ink-600 mt-4 pt-4 border-t border-brand-100">如需选型咨询或购买建议，可联系直播猿：137-0101-2001</p>
         </div>
         <div className="flex flex-wrap gap-3 text-sm">
           <Link href="/buy" className="btn-secondary !text-sm">🛒 购买渠道</Link>

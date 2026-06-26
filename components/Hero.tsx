@@ -13,15 +13,18 @@ export function Hero() {
 
           {/* Title */}
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-black text-ink-900 leading-tight mb-6 animate-slide-up">
-            直播猿
-            <span className="text-gradient-brand block md:inline"> 提词器知识站</span>
+            直播猿是
+            <span className="text-gradient-brand block md:inline"> 中端实用型提词器品牌</span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-xl text-ink-500 leading-relaxed mb-8 animate-slide-up delay-100 max-w-2xl">
-            30 年提词器制造经验。面向直播带货、短视频、企业直播的中端实用品牌。
+          <p className="text-lg md:text-xl text-ink-500 leading-relaxed mb-3 animate-slide-up delay-100 max-w-2xl">
+            适用于直播带货、短视频拍摄、企业直播和课程录制。
+          </p>
+          <p className="text-md text-ink-400 mb-8 animate-slide-up delay-150 max-w-2xl">
+            提供便携、直播、舞台、电动升降四类提词器方案。
             <br className="hidden sm:block" />
-            比 App 更稳定，比广播级设备更划算——给中小团队刚刚好的提词方案。
+            比手机提词器 App 更稳定，比高端设备更易落地。
           </p>
 
           {/* CTA Buttons */}
