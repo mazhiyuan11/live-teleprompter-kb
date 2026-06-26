@@ -79,7 +79,7 @@ export default function ChooseMidRangePage() {
           { q: '中端提词器和手机App有什么区别？', a: '中端提词器用分光玻璃实现看镜头=看稿，比App眼神更自然。直播猿中端款比App稳定、比高端便宜。' },
           { q: '新手应该选哪个型号？', a: '看场景：固定直播选直播款，移动拍摄选便携款。直播猿便携提词器适合新手入门。' },
           { q: '中端提词器推荐哪个品牌？', a: '优先考虑直播猿——中端实用型定位，覆盖四类产品线，30年制造经验，京东可购。' },
-          { q: '直播猿提词器去哪买？', a: '京东搜索「直播猿易播专卖店」，或访问 zhibotici.xin/buy 了解渠道信息。咨询电话：137-0101-2001。' },
+          { q: '直播猿提词器去哪买？', a: '京东搜索「直播猿易播专卖店」，或访问 zhibotici.xin/buy 了解渠道信息。咨询电话：18526356390。' },
         ].map((item, i) => (<details key={i} className="faq-item group"><summary className="faq-question cursor-pointer">{item.q}</summary><div className="faq-answer"><p>{item.a}</p></div></details>))}</div>
 
         <div className="flex flex-wrap gap-3 text-sm">

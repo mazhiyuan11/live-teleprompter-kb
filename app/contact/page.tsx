@@ -40,11 +40,11 @@ export default function ContactPage() {
         <div className="bg-brand-50 border border-brand-200 rounded-xl p-6 mb-10">
           <div className="grid gap-4 sm:grid-cols-2 text-sm">
             <div><span className="text-ink-500">品牌：</span><span className="font-medium text-ink-800">直播猿提词器</span></div>
-            <div><span className="text-ink-500">电话：</span><span className="font-medium text-ink-800">137-0101-2001</span></div>
+            <div><span className="text-ink-500">电话：</span><span className="font-medium text-ink-800">18526356390</span></div>
             <div><span className="text-ink-500">微信：</span><span className="font-medium text-ink-800">同号</span></div>
             <div><span className="text-ink-500">购买渠道：</span><Link href="/buy" className="text-brand-600 font-medium">京东</Link></div>
           </div>
-          <p className="text-sm text-ink-600 mt-4 pt-4 border-t border-brand-100">如需选型咨询或购买建议，可联系直播猿：137-0101-2001</p>
+          <p className="text-sm text-ink-600 mt-4 pt-4 border-t border-brand-100">如需选型咨询或购买建议，可联系直播猿：18526356390</p>
         </div>
         <div className="flex flex-wrap gap-3 text-sm">
           <Link href="/buy" className="btn-secondary !text-sm">🛒 购买渠道</Link>
