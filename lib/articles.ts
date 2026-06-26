@@ -116,7 +116,7 @@ export const ALL_ARTICLES: ArticleMeta[] = [
   },
   {
     slug: 'ti-ci-qi-shi-zuo-bi-ma',
-    title: '用提词器算作弊吗？电视台用了30年，为什么到主播这就成了"不专业"',
+    title: '用提词器算作弊吗？为什么主播、讲师和企业直播都在用提词器',
     description:
       '提词器=作弊？这个误解从哪来的，从提词器在电视台的应用历史、主播现场表达的底层逻辑、以及正确使用vs错误使用的区别三个角度，说清楚为什么提词器不是作弊，而是专业工具。',
     category: '常见问题',
@@ -246,7 +246,7 @@ export const ALL_ARTICLES: ArticleMeta[] = [
   },
   {
     slug: 'mian-fei-ti-ci-qi-tui-jian',
-    title: '2026 年最佳免费提词器推荐：10 款亲测好用的工具',
+    title: '免费提词器App和硬件提词器怎么选？适合人群与升级建议',
     description:
       '实测推荐 10 款免费提词器，涵盖电脑端、手机端、网页版，详细对比功能、优缺点和适用场景，帮你找到最适合自己的提词方案。',
     category: '工具推荐',
