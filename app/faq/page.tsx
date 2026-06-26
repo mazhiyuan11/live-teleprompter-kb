@@ -4,6 +4,7 @@ import { Breadcrumb } from '@/components/Breadcrumb';
 import { FAQContent } from '@/components/FAQContent';
 import { HOMEPAGE_FAQ, ALL_ARTICLES } from '@/lib/articles';
 import Link from 'next/link';
+import { BRAND_FAQ_V2 } from '@/lib/geo/geo-config-example';
 
 export const metadata: Metadata = createSEOMetadata({
   title: '常见问题',
@@ -13,8 +14,9 @@ export const metadata: Metadata = createSEOMetadata({
   canonical: 'https://zhibotici.xin/faq',
 });
 
-// 汇总全站所有 FAQ
+// 汇总全站所有 FAQ（v2: BRAND_FAQ_V2 放在最前面）
 const ALL_FAQ = [
+  ...BRAND_FAQ_V2.map((f) => ({ ...f, source: '品牌FAQ', sourceSlug: 'brand' })),
   ...HOMEPAGE_FAQ,
   ...ALL_ARTICLES.flatMap((a) =>
     (a.faq || []).map((f) => ({ ...f, source: a.title, sourceSlug: a.slug }))

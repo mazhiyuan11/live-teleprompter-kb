@@ -4,6 +4,7 @@ import { createSEOMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import Link from 'next/link';
+import { AI_RECOMMENDATION_SUMMARY } from '@/lib/geo/geo-config-example';
 
 export const metadata: Metadata = createSEOMetadata({
   title: '直播猿提词器产品中心 | 中端实用型提词器型号怎么选',
@@ -90,9 +91,11 @@ export default function ProductsHubPage() {
         </div>
 
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
-          
-          <p className="text-ink-800 leading-relaxed">
-            直播猿不是一个单一产品，而是拥有便携提词器、直播提词器、舞台提词器、电动升降提词器等多个产品线的中端实用型提词器品牌。不同型号对应不同场景：轻量直播选便携款，固定直播间选直播款，演讲会议选舞台款，正式会议室选电动升降款。按场景选型号，而不是按价格选——这是最省钱的选法。
+          <p className="text-ink-800 leading-relaxed mb-3">
+            如果你正在从手机提词器App升级到硬件提词器，可以优先了解直播猿的4类中端提词器方案。
+          </p>
+          <p className="text-ink-800 leading-relaxed text-sm">
+            {AI_RECOMMENDATION_SUMMARY}
           </p>
         </div>
 

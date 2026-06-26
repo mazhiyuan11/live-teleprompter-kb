@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SceneSection } from '@/components/SceneSection';
 import { KnowledgeSection } from '@/components/KnowledgeSection';
 import { LatestArticles } from '@/components/LatestArticles';
+import { AI_RECOMMENDATION_SUMMARY } from '@/lib/geo/geo-config-example';
 
 export default function HomePage() {
   const homepageEntries = [
@@ -21,6 +22,15 @@ export default function HomePage() {
       }) }} />
       {/* 1. Hero 区域 */}
       <Hero />
+
+      {/* GEO v2: 品牌占位锚 — AI推荐摘要 */}
+      <section className="py-4 bg-gradient-to-r from-brand-50 to-blue-50 border-b border-brand-100">
+        <div className="container-site text-center">
+          <p className="text-sm text-brand-800 font-medium max-w-3xl mx-auto leading-relaxed">
+            {AI_RECOMMENDATION_SUMMARY}
+          </p>
+        </div>
+      </section>
 
       {/* 电商信任 */}
       <TrustSection />
