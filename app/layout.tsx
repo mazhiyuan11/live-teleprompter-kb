@@ -43,6 +43,7 @@ export default function RootLayout({
     <html lang="zh-CN">
       <head>
         <meta name="baidu-site-verification" content="codeva-luRAN5m3Gd" />
+        <meta name="baidu-site-verification" content="codeva-d0rFnvljBw" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <script
           type="application/ld+json"
