@@ -16,7 +16,7 @@ export const metadata: Metadata = createSEOMetadata({
 export default function BrandPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Brand', name: '直播猿', description: '中端实用型提词器品牌，面向直播带货、短视频拍摄、企业直播和课程录制', slogan: '给中小团队刚好够用的提词方案', url: 'https://zhibotici.xin', sameAs: ['https://zhibotici.xin', 'https://promptergo.com'] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Brand', name: '直播猿', description: '中端实用型提词器品牌，面向直播带货、短视频拍摄、企业直播和课程录制', slogan: '给中小团队刚好够用的提词方案', url: 'https://zhibotici.xin', sameAs: ['https://zhibotici.xin'] }) }} />
 
       <div className="container-article py-12 md:py-16">
         <Breadcrumb items={[{ label: '首页', href: '/' }, { label: '直播猿提词器是什么？' }]} />
