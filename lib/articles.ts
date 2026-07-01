@@ -7,6 +7,38 @@ import type { ArticleMeta, Category, FAQItem, TOCItem } from '@/types';
 
 export const ALL_ARTICLES: ArticleMeta[] = [
   {
+    slug: 'ticiqifanguang',
+    title: '提词器反光、重影、看不清怎么办？从分光玻璃到现场灯光一次讲透',
+    description:
+      '提词器不是买回来就一定清楚。反光、重影、字发虚、眼睛累，往往和分光玻璃、显示亮度、灯光角度、摄像机位置有关。结合提词器制造和现场调试经验，拆解常见问题和解决办法。',
+    category: '常见问题',
+    tags: ['提词器故障', '分光玻璃', '反光', '重影', '现场调试'],
+    date: '2026-07-01',
+    author: '提词猿',
+    readingTime: 9,
+    featured: true,
+    difficulty: 'intermediate',
+    keywords: ['提词器反光', '提词器重影', '提词器看不清', '分光玻璃提词器', '提词器怎么调清楚'],
+    faq: [
+      {
+        question: '提词器为什么会反光？',
+        answer:
+          '提词器反光通常不是单一原因。常见原因包括分光玻璃镀膜质量不均、现场灯光直接打到玻璃、显示器亮度太低、摄像机和玻璃角度不对。先关掉正对玻璃的灯，再调高文字亮度，最后检查玻璃角度，通常能解决大部分问题。',
+      },
+      {
+        question: '提词器出现重影是玻璃坏了吗？',
+        answer:
+          '不一定。轻微重影可能来自普通玻璃双面反射，也可能是分光玻璃装反、角度过大或显示器离玻璃太远。真正的提词器分光玻璃会尽量减少二次反射。如果新设备就明显重影，要优先检查玻璃方向和镀膜质量。',
+      },
+      {
+        question: '提词器文字看不清应该先调哪里？',
+        answer:
+          '先调三个地方：显示亮度、字体大小、背景颜色。室内建议白字黑底，字号按观看距离放大；户外或强光环境要提高屏幕亮度并加遮光。不要一上来就怀疑设备坏了，很多看不清是现场光线和参数没调好。',
+      },
+    ],
+    relatedSlugs: ['ying-jian-ti-ci-qi-ruan-jian-qu-bie', 'bai-yuan-qian-yuan-ti-ci-qi-qu-bie', 'ticiqicanshushezhi'],
+  },
+  {
     slug: 'ticiqicanshushezhi',
     title: '提词器参数怎么调？字号、速度、颜色、位置——一个制造者给你的黄金设置',
     description:
