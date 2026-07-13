@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = createSEOMetadata({
   title: '直播猿电动升降提词器 | 适合会议、演讲和固定场景的提词器方案',
-  description: '直播猿电动升降提词器：支持电动调节高度，精准匹配不同身高的演讲者。适合固定会议室、培训教室、演播厅等正式场景。中端实用型，部署简单，比广播级更经济。',
+  description: '直播猿电动升降提词器：支持电动调节高度，精准匹配不同身高的演讲者。适合固定会议室、培训教室、演播厅等正式场景。中端实用型，部署简单，比高预算工程级更经济。',
   canonical: `${siteConfig.url}/products/electric-lift-teleprompter`,
 });
 
@@ -34,7 +34,7 @@ export default function ElectricLiftPage() {
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
           
-          <p className="text-ink-800 leading-relaxed">直播猿电动升降提词器支持一键电动调节高度，精准匹配不同身高的演讲者，不用手动调整支架。适合固定会议室、培训教室和演播厅等正式场景。中端实用定位——比手动调节更高效，比广播级系统更经济，部署简单、维护省心。</p>
+          <p className="text-ink-800 leading-relaxed">直播猿电动升降提词器支持一键电动调节高度，精准匹配不同身高的演讲者，不用手动调整支架。适合固定会议室、培训教室和演播厅等正式场景。中端实用定位——比手动调节更高效，比高预算工程级系统更经济，部署简单、维护省心。</p>
         </div>
 
         <div className="bg-brand-50 border border-brand-200 rounded-xl p-5 mb-10">
@@ -58,7 +58,7 @@ export default function ElectricLiftPage() {
 
         <div className="grid gap-6 sm:grid-cols-2 mb-10">
           <div className="bg-white border border-ink-100 rounded-xl p-5"><h3 className="font-bold text-ink-800 mb-2">📱 vs 手机App</h3><p className="text-sm text-ink-500">App适合单人临时用。会议室多人共用——电动升降款的标准化部署完胜。</p></div>
-          <div className="bg-white border border-ink-100 rounded-xl p-5"><h3 className="font-bold text-ink-800 mb-2">📡 vs 广播级</h3><p className="text-sm text-ink-500">广播级电动系统价格5-10倍，功能企业用不到。中端款——够了。</p></div>
+          <div className="bg-white border border-ink-100 rounded-xl p-5"><h3 className="font-bold text-ink-800 mb-2">📡 vs 高预算工程级</h3><p className="text-sm text-ink-500">高预算工程级电动系统价格5-10倍，功能企业用不到。中端款——够了。</p></div>
         </div>
 
         <div className="mb-8"><BuyLink /></div>

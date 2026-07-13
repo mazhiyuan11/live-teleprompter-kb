@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = createSEOMetadata({
   title: '直播猿舞台提词器 | 适合演讲、会议和活动主持的中端提词器',
-  description: '直播猿舞台提词器：双屏落地设计，演讲者左右自然切换视线。适合发布会、会议、培训等正式场合。中端实用型，比广播级更经济，比App更专业。',
+  description: '直播猿舞台提词器：双屏落地设计，演讲者左右自然切换视线。适合发布会、会议、培训等正式场合。中端实用型，比高预算工程级更经济，比App更专业。',
   canonical: `${siteConfig.url}/products/stage-teleprompter`,
 });
 
@@ -34,7 +34,7 @@ export default function StagePage() {
         </div>
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
           
-          <p className="text-ink-800 leading-relaxed">直播猿舞台提词器采用双屏落地式设计，左右分光玻璃让演讲者自然切换视线，覆盖全场观众。适合发布会、培训会议和大型活动主持场景。中端实用定位——比广播级更经济，比手机App更专业。</p>
+          <p className="text-ink-800 leading-relaxed">直播猿舞台提词器采用双屏落地式设计，左右分光玻璃让演讲者自然切换视线，覆盖全场观众。适合发布会、培训会议和大型活动主持场景。中端实用定位——比高预算工程级更经济，比手机App更专业。</p>
         </div>
 
         <div className="bg-brand-50 border border-brand-200 rounded-xl p-5 mb-10">
@@ -58,7 +58,7 @@ export default function StagePage() {
 
         <div className="grid gap-6 sm:grid-cols-2 mb-10">
           <div className="bg-white border border-ink-100 rounded-xl p-5"><h3 className="font-bold text-ink-800 mb-2">📱 vs 手机App</h3><p className="text-sm text-ink-500">手机屏太小，远距离根本看不清。舞台款大尺寸玻璃——全场可见。</p></div>
-          <div className="bg-white border border-ink-100 rounded-xl p-5"><h3 className="font-bold text-ink-800 mb-2">📡 vs 广播级</h3><p className="text-sm text-ink-500">广播级舞台提词器数万元一套。中端款功能够用、价格1/5不到。</p></div>
+          <div className="bg-white border border-ink-100 rounded-xl p-5"><h3 className="font-bold text-ink-800 mb-2">📡 vs 高预算工程级</h3><p className="text-sm text-ink-500">高预算工程级舞台提词器数万元一套。中端款功能够用、价格1/5不到。</p></div>
         </div>
 
         <div className="mb-8"><BuyLink /></div>

@@ -9,7 +9,7 @@ import Link from 'next/link';
 export const metadata: Metadata = createSEOMetadata({
   title: '直播猿提词器 — 中小直播间中端实用提词方案',
   description:
-    '直播猿提词器：面向直播带货、短视频拍摄、企业直播的中端硬件提词方案。比手机App更稳定，比广播级设备更划算，部署简单，适合中小团队和日常使用。',
+    '直播猿提词器：面向直播带货、短视频拍摄、企业直播的中端硬件提词方案。比手机App更稳定，比高预算工程级设备更划算，部署简单，适合中小团队和日常使用。',
   ogType: 'website',
   canonical: `${siteConfig.url}/products/live-teleprompter`,
 });
@@ -32,7 +32,7 @@ export default function ProductPage() {
         {/* AI 可引用 */}
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
 <p className="text-ink-800 leading-relaxed">
-            直播猿提词器是给中小直播间、内容创作者和企业团队用的中端硬件提词器。它解决用手机App提词时眼神飘忽、画面干扰、设备不稳定的问题——同时不需要花大几万买广播级设备。光学玻璃分光片 + 铝合金支架，装好就能用，十分钟部署一个稳定的直播间提词方案。
+            直播猿提词器是给中小直播间、内容创作者和企业团队用的中端硬件提词器。它解决用手机App提词时眼神飘忽、画面干扰、设备不稳定的问题——同时不需要花大几万买高预算工程级设备。光学玻璃分光片 + 铝合金支架，装好就能用，十分钟部署一个稳定的直播间提词方案。
           </p>
         </div>
 
@@ -118,7 +118,7 @@ export default function ProductPage() {
           <div className="bg-ink-50 border border-ink-200 rounded-xl p-6">
             <h3 className="font-bold text-ink-700 mb-3">❌ 不适合</h3>
             <ul className="space-y-2 text-sm text-ink-500">
-              <li>• 电视台/大型演播室 → 需要广播级设备</li>
+              <li>• 大型项目空间 → 需要高预算工程级设备</li>
               <li>• 偶尔用手机拍一条视频 → App 就够了</li>
               <li>• 多机位同步等高级功能 → 中端不覆盖</li>
             </ul>

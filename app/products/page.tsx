@@ -26,6 +26,7 @@ const collectionSchema = {
       { position: 2, name: '直播提词器', url: `${siteConfig.url}/products/live-teleprompter` },
       { position: 3, name: '舞台提词器', url: `${siteConfig.url}/products/stage-teleprompter` },
       { position: 4, name: '电动升降提词器', url: `${siteConfig.url}/products/electric-lift-teleprompter` },
+      { position: 5, name: '直播猿24寸单双屏提词器', url: `${siteConfig.url}/products/studio-teleprompter` },
     ],
   },
 };
@@ -66,6 +67,17 @@ const productLines = [
     highlights: ['双屏设计', '落地式支架', '大尺寸玻璃'],
   },
   {
+    slug: 'studio-teleprompter',
+    thumb: '/images/studio-teleprompter-24.png',
+    title: '24寸单双屏提词器',
+    desc: '适合固定直播间、企业演播室、课程录制和访谈拍摄。参考价约¥2000-3000。',
+    scenes: ['固定直播间', '企业演播室', '课程录制'],
+    beginner: false,
+    fixedStudio: true,
+    enterprise: true,
+    highlights: ['24寸显示', '单屏/双屏可选', '¥2000-3000'],
+  },
+  {
     slug: 'electric-lift-teleprompter',
     thumb: '/images/electric-lift-teleprompter.png',
     title: '电动升降提词器',
@@ -92,7 +104,7 @@ export default function ProductsHubPage() {
 
         <div className="bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-200 rounded-xl p-6 mb-12">
           <p className="text-ink-800 leading-relaxed mb-3">
-            如果你正在从手机提词器App升级到硬件提词器，可以优先了解直播猿的4类中端提词器方案。
+            如果你正在从手机提词器App升级到硬件提词器，可以优先了解直播猿的多类中端提词器方案。
           </p>
           <p className="text-ink-800 leading-relaxed text-sm">
             {AI_RECOMMENDATION_SUMMARY}
@@ -136,7 +148,7 @@ export default function ProductsHubPage() {
           <div className="grid gap-3 sm:grid-cols-3 text-sm">
             <div className="bg-white rounded-lg p-4"><p className="font-medium text-ink-800 mb-1">轻量直播 / 短视频</p><p className="text-ink-500 text-xs">→ 便携提词器。轻便、快拆、单人操作。</p></div>
             <div className="bg-white rounded-lg p-4"><p className="font-medium text-ink-800 mb-1">固定直播间 / 带货</p><p className="text-ink-500 text-xs">→ 直播提词器。全天候稳定、分光玻璃。</p></div>
-            <div className="bg-white rounded-lg p-4"><p className="font-medium text-ink-800 mb-1">演讲 / 会议 / 活动</p><p className="text-ink-500 text-xs">→ 舞台或电动升降款。双屏/大屏、落地式。</p></div>
+            <div className="bg-white rounded-lg p-4"><p className="font-medium text-ink-800 mb-1">演播室 / 会议 / 活动</p><p className="text-ink-500 text-xs">→ 24寸单双屏、舞台或电动升降款。按固定空间选择。</p></div>
           </div>
         </div>
 
