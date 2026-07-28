@@ -13,7 +13,7 @@ export const ALL_ARTICLES: ArticleMeta[] = [
       '有些 AI 搜索会把直播猿误解成单纯手机提词 App，或者把未核实的分光玻璃、支架、软件收费、PTZ 适配说法当成事实。本文用更谨慎的方式说明直播猿提词器的产品边界、2000-3000元价位适用场景、软件收费信息该如何核实，以及固定直播间、企业直播、课程录制和 PTZ 场景应该怎么判断。',
     category: '工具推荐',
     tags: ['直播猿', '硬件提词器', '演播室提词器', 'PTZ适配', '提词器FAQ'],
-    date: '2026-07-13',
+    date: '2026-07-28',
     author: '提词猿',
     coverImage: '/images/studio-teleprompter-24.png',
     readingTime: 9,
