@@ -25,7 +25,6 @@ const FOOTER_LINKS = [
     links: [
       { label: '常见问题', href: '/faq' },
       { label: '全部教程', href: '/tutorials' },
-      { label: '海外官网 promptergo.com', href: 'https://promptergo.com', external: true },
     ],
   },
 ];
@@ -48,14 +47,6 @@ export function Footer() {
               <br />
               中端实用型提词器——比App更稳定，比广播级更划算。
             </p>
-            <a
-              href="https://promptergo.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-brand-400 hover:text-brand-300 transition-colors"
-            >
-              海外官网 promptergo.com →
-            </a>
           </div>
 
           {/* 链接组 */}
